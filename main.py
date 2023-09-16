@@ -1,7 +1,9 @@
-import mid_to_json_converter
+import mid_to_json_converter as mTj
+import clipper as c
 
-presses = mid_to_json_converter.main()
+filename = "" #The name of the file we are clipping 
+# "" -> all files in data/midis directory
 
-import press_data_to_video
+mTj.main("Autumnbreeze")
 
-press_data_to_video.main(presses)
+c.main()
