@@ -10,7 +10,7 @@ def main(filename = ""):
 
     script = json.load(open(r'./data/jsons/Autumnbreeze.json'))
     
-    pack_name = './data/packs/' +  "PianoTestPack"#input('Ime paketa: ')
+    pack_name = './data/packs/' +  "PianoTestPack" #input('Ime paketa: ')
 
     script = checkScript(script, pack_name)
 
