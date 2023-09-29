@@ -1,7 +1,7 @@
 import os
 import shutil
 from datetime import datetime
-
+from settings import help_clips_path, scripts_path
 
 def createDir(path:str):
     path = "./"+path
@@ -21,8 +21,10 @@ def createMainLayout(main_folder: str):
         ans = input("Do you want to overwrite it? [Y/N] ").strip().lower()
         if ans == "y" or ans == "j":
             removeDir(path)
-            createMainLayout(main_folder)
+            path = createMainLayout(main_folder)
         elif ans == "n":
             dateTime = datetime.now().strftime("%Y%m%d_%H%M%S")
-            createMainLayout(main_folder+"_"+dateTime)
+            path = createMainLayout(main_folder+"_"+dateTime)
+
+    return path
 

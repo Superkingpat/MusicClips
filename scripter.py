@@ -4,9 +4,6 @@ from os.path import isfile, join
 import gc
 from settings import *
 
-def main(filename):
-    script = json.load(open(r'./data/music.json'))
-
 def checkScript(script, pack_name):
     script_notes = set()
     pack_notes = sort([f.replace(".mp4","") for f in listdir(pack_name) if (isfile(join(pack_name, f)) and f.endswith(".mp4"))])
@@ -94,10 +91,10 @@ def optimizeScript(script, pack_name):
             tmp_script["time"] = script[i]["time"]
             tmp_script["duration"] = script[i]["duration"]
 
-    file = open("optimisedScript.json", "w")
+    file = open(scripts_path+"/optimisedScript.json", "w")
     file.write(json.dumps(new_script).replace("},", "},\n"))
 
-    file = open("blocks.json", "w")
+    file = open(scripts_path+"/blocks.json", "w")
     file.write(json.dumps(blocks).replace("},", "},\n"))
 
     gc.collect()
@@ -140,10 +137,10 @@ def splitLoad(script):
         output.append(tmp)
         final_script.append({"note": "Y"+str(count), "time": tmp[0]["time"]})
 
-    file = open("splitedScript.json", "w")
+    file = open(scripts_path+"/splitedScript.json", "w")
     file.write(json.dumps(output).replace("},", "},\n"))
 
-    file = open("final_script.json", "w")
+    file = open(scripts_path+"/final_script.json", "w")
     file.write(json.dumps(final_script).replace("},", "},\n"))
 
     gc.collect()

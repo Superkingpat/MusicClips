@@ -6,8 +6,8 @@ KEEP_TMPS = True #Keep temp files
 PACK_NAME = "./data/packs/PianoTestPack"
 
 ######  PATHS  ######
-HELP_CLIPS_PATH = "./data/helpClips"
-
+help_clips_path = "./data/helpClips"
+scripts_path = "./data/scripts"
 JSONS_PATH = "./data/jsons"
 MIDIS_PATH = "./data/midis"
 PACKS_PATH = "./data/packs"

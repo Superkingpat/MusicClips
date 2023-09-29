@@ -13,9 +13,9 @@ def loadBaseClips(pack_name, note_list):
     return clip_array
 
 def loadHelpClips(clip_array = {}):
-    only_files = [f.replace(".mp4","") for f in listdir(HELP_CLIPS_PATH) if (isfile(join(HELP_CLIPS_PATH, f)) and f.endswith(".mp4"))]
+    only_files = [f.replace(".mp4","") for f in listdir(help_clips_path) if (isfile(join(help_clips_path, f)) and f.endswith(".mp4"))]
     for f in only_files:
-        clip_array[f] = mp.VideoFileClip(join(HELP_CLIPS_PATH,(f+".mp4")))
+        clip_array[f] = mp.VideoFileClip(join(help_clips_path,(f+".mp4")))
     return clip_array
 
 def loadAllClips(pack_name, clip_array = {}):

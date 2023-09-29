@@ -5,10 +5,10 @@ from renderer import *
 from scripter import *
 
 
-def main(filename = ""):
+def main(filename: str):
     gc.enable()
 
-    script = json.load(open(r'./data/jsons/Autumnbreeze.json'))
+    script = json.load(open(JSONS_PATH+"/"+filename+".json"))
     
     pack_name = './data/packs/' +  "PianoTestPack" #input('Ime paketa: ')
 

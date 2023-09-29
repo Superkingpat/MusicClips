@@ -15,7 +15,7 @@ def renderClip(x):
         track.append(clip.subclip(0,clip.duration).set_opacity((1/len(x["notes"]))*(len(x["notes"])-x["notes"].index(y))))
 
     video = mp.CompositeVideoClip(track,size=(1920, 1080))
-    video.write_videofile(HELP_CLIPS_PATH+"/X"+str(x["index"])+".mp4")
+    video.write_videofile(help_clips_path+"/X"+str(x["index"])+".mp4")
     gc.collect()
 
 def renderScriptClips(batch_size, script_list):
@@ -30,17 +30,17 @@ def renderScriptClip(script):
         if (y["note"][0] != 'X'):
             clip = mp.VideoFileClip(join(PACK_NAME,(y["note"]+".mp4")))
         else:
-            clip = mp.VideoFileClip(join(HELP_CLIPS_PATH,(y["note"]+".mp4")))
+            clip = mp.VideoFileClip(join(help_clips_path,(y["note"]+".mp4")))
         track.append(clip.set_start(y["time"]-start_time))
 
     video = mp.CompositeVideoClip(track,size=(1920, 1080))
-    video.write_videofile(HELP_CLIPS_PATH+"/Y"+str(y["index"])+".mp4")
+    video.write_videofile(help_clips_path+"/Y"+str(y["index"])+".mp4")
     gc.collect()
 
 def renderFinal(script):
     track = []
     for line in script:
-        clip = mp.VideoFileClip(join(HELP_CLIPS_PATH,(line["note"]+".mp4")))
+        clip = mp.VideoFileClip(join(help_clips_path,(line["note"]+".mp4")))
         track.append(clip.set_start(line["time"]))
 
     video = mp.CompositeVideoClip(track,size=FULL_HD)

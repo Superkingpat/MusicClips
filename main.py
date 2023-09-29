@@ -1,9 +1,13 @@
 import mid_to_json_converter as mTj
 import clipper as c
+from organizer import createMainLayout
 
-filename = "" #The name of the file we are clipping 
-# "" -> all files in data/midis directory
 
-mTj.main("Autumnbreeze")
+if __name__ == '__main__':
+    filename = "FireworksMIDI"
 
-c.main()
+    #mTj.main(filename)
+
+    createMainLayout(filename)
+
+    c.main(filename)
