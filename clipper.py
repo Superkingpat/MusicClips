@@ -9,12 +9,10 @@ def main(filename: str):
     gc.enable()
 
     script = json.load(open(JSONS_PATH+"/"+filename+".json"))
-    
-    pack_name = './data/packs/' +  "PianoTestPack" #input('Ime paketa: ')
 
-    script = checkScript(script, pack_name)
+    script = checkScript(script, PACK_NAME)
 
-    _, script, blocks = optimizeScript(script, pack_name)
+    _, script, blocks = optimizeScript(script, PACK_NAME)
 
     script_list, final_script = splitLoad(script)
 

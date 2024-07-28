@@ -27,4 +27,3 @@ def createMainLayout(main_folder: str):
             path = createMainLayout(main_folder+"_"+dateTime)
 
     return path
-

@@ -4,6 +4,7 @@ BATCH_SIZE = 10  #No more than 10 batches
 AUDIO_OFFSET = 0.5 #Seconds of offset
 KEEP_TMPS = True #Keep temp files
 PACK_NAME = "./data/packs/PianoTestPack"
+AFTER_RECORDING_OF_COMPRESSED_BLOCKS = False #Record blocks instead of joining them
 
 ######  PATHS  ######
 help_clips_path = "./data/helpClips"

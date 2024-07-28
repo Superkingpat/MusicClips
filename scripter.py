@@ -5,8 +5,24 @@ import gc
 from settings import *
 
 def checkScript(script, pack_name):
+    """
+    The function `checkScript` compares notes in a script with notes in a pack, identifies missing
+    notes, and offers to transpose the song if possible.
+    
+    :param script: The `script` parameter seems to be a list of dictionaries where each dictionary
+    contains a "note" key. The function `checkScript` is designed to compare the notes in the script
+    with the  pack directorynotes present in a specified
+    :param pack_name: The `pack_name` parameter in the `checkScript` function is the name of the
+    directory where the video files are located. The function checks if the notes in the script are
+    present in the video pack specified by `pack_name`. If any notes are missing, it provides
+    information on the missing notes
+    :return: The function `checkScript` is returning the `script` variable if no transposition is
+    needed. If transposition is possible and the user provides a valid transposition value, then the
+    function will return the result of the `transpose` function with the specified transposition value
+    applied to the `script` and `pack_name` variables.
+    """
     script_notes = set()
-    pack_notes = sort([f.replace(".mp4","") for f in listdir(pack_name) if (isfile(join(pack_name, f)) and f.endswith(".mp4"))])
+    pack_notes = sort([f.replace(".mp4","") for f in listdir(pack_name) if (isfile(join(pack_name, f)) and f.endswith(".mp4"))]) #List of suppoorted notes
     missing_notes = []
 
     for x in script:
@@ -25,9 +41,15 @@ def checkScript(script, pack_name):
 
         if (midiValue(script_notes[-1]) - midiValue(script_notes[0]) < midiValue(pack_notes[-1]) - midiValue(pack_notes[0])):
             print("It's possible to transpose the song.")
-
             print("Where to you want to transpose song? MIN:",  (midiValue(pack_notes[0]) - midiValue(script_notes[0])), " MAX:", (midiValue(pack_notes[-1]) - midiValue(script_notes[-1])))
-            value = int(input())
+            value = None
+            while(type(value) != int):
+                try:
+                    value = int(input("Transposition value [INTEGER]: "))
+                except ValueError:
+                    print("You didn't insert a number!")
+                except Exception as e:
+                    print("Unresovled error: " + e)
             if (midiValue(pack_notes[0]) - midiValue(script_notes[0])) < value and (midiValue(pack_notes[-1]) - midiValue(script_notes[-1]) > value and value != 0):
                 return transpose(value, script, pack_name)
             
