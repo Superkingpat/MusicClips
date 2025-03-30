@@ -1,0 +1,822 @@
+         506395 function calls (469475 primitive calls) in 384.973 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       40    0.002    0.000  603.656   15.091 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:246(recv)
+    44/40    0.002    0.000  549.514   13.738 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:310(_recv_bytes)
+        1    0.001    0.001  383.199  383.199 c:\Users\patri\Documents\GitHub\MusicClips\clipper.py:66(main)
+    50/24    0.006    0.000  353.278   14.720 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1016(_bootstrap)
+    50/24    0.001    0.000  353.274   14.720 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1056(_bootstrap_inner)
+    50/24    0.000    0.000  353.223   14.718 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:999(run)
+        2    0.000    0.000  352.326  176.163 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:738(__exit__)
+        2    0.000    0.000  352.320  176.160 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:654(terminate)
+       14    0.000    0.000  352.268   25.162 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:208(__call__)
+        2    0.000    0.000  352.268  176.134 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:680(_terminate_pool)
+        2    0.000    0.000  352.179  176.090 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:369(starmap)
+        2    0.000    0.000  352.179  176.089 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:767(get)
+        2    0.001    0.000  352.179  176.089 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:764(wait)
+       44    0.002    0.000  206.350    4.690 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:1032(wait)
+       65    0.002    0.000  206.345    3.175 {method 'cancel' of '_winapi.Overlapped' objects}
+       50    0.000    0.000  199.403    3.988 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1115(join)
+  362/260    0.001    0.000  199.402    0.767 {method 'acquire' of '_thread.lock' objects}
+       54    0.000    0.000  199.402    3.693 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1153(_wait_for_tstate_lock)
+        1    0.000    0.000  198.326  198.326 c:\Users\patri\Documents\GitHub\MusicClips\renderer.py:41(render_script_clips)
+   106/19  352.159    3.322  198.283   10.436 {built-in method _winapi.WaitForMultipleObjects}
+        2    0.000    0.000  198.282   99.141 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:527(_handle_tasks)
+       21    0.001    0.000  155.721    7.415 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:500(_wait_for_updates)
+        1    0.000    0.000  154.000  154.000 c:\Users\patri\Documents\GitHub\MusicClips\renderer.py:13(render_block_clips)
+       27    0.000    0.000  153.928    5.701 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:253(poll)
+       27    0.000    0.000  153.927    5.701 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:342(_poll)
+        2    0.000    0.000  153.925   76.962 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:573(_handle_results)
+        2    0.000    0.000  153.925   76.962 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:671(_help_stuff_finish)
+        2    0.000    0.000  153.925   76.962 {method 'acquire' of '_multiprocessing.SemLock' objects}
+       44    0.001    0.000  141.244    3.210 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:1010(_exhaustive_wait)
+       52    0.000    0.000   53.492    1.029 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:637(wait)
+        1    0.001    0.001   27.579   27.579 c:\Users\patri\Documents\GitHub\MusicClips\renderer.py:177(render_final)
+        1    0.000    0.000   24.880   24.880 <decorator-gen-55>:1(write_videofile)
+    464/1    0.001    0.000   24.880   24.880 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:47(requires_duration)
+        1    0.000    0.000   24.880   24.880 <decorator-gen-54>:1(write_videofile)
+      2/1    0.000    0.000   24.880   24.880 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:108(use_clip_fps_by_default)
+        1    0.000    0.000   24.879   24.879 <decorator-gen-53>:1(write_videofile)
+        1    0.000    0.000   24.879   24.879 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:17(convert_masks_to_RGB)
+        1    0.001    0.001   24.879   24.879 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:131(write_videofile)
+        1    0.074    0.074   24.523   24.523 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:199(ffmpeg_write_video)
+ 6308/979    0.009    0.000   23.474    0.024 <decorator-gen-11>:1(get_frame)
+17132/1034    0.059    0.000   23.474    0.023 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:78(wrapper)
+ 6308/979    0.009    0.000   23.455    0.024 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:77(get_frame)
+      521    0.004    0.000   23.200    0.045 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:442(iter_frames)
+      520    0.286    0.001   23.177    0.045 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\compositing\CompositeVideoClip.py:105(make_frame)
+     2550    0.858    0.000   22.855    0.009 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:512(blit_on)
+2652/2630   12.706    0.005   11.746    0.004 {method 'read' of '_io.BufferedReader' objects}
+     2550    0.398    0.000   11.480    0.005 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:116(read_frame)
+     2550    8.786    0.003   11.244    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\tools\drawing.py:9(blit)
+     2550    0.005    0.000   10.696    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\VideoFileClip.py:113(<lambda>)
+     2550    0.014    0.000   10.691    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:153(get_frame)
+        3    4.972    1.657    4.972    1.657 {built-in method builtins.input}
+        1    0.000    0.000    3.275    3.275 c:\Users\patri\Documents\GitHub\MusicClips\clipper.py:32(process_script)
+        1    0.000    0.000    3.206    3.206 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:8(check_script)
+        1    0.000    0.000    3.205    3.205 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:41(handle_missing_notes)
+        1    0.000    0.000    3.202    3.202 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:61(get_transposition_input)
+       11    0.001    0.000    2.601    0.236 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\VideoFileClip.py:78(__init__)
+     5269    2.457    0.000    2.457    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    1.484    1.484 c:\Users\patri\Documents\GitHub\MusicClips\mid_to_json_converter.py:111(main)
+       11    0.000    0.000    1.436    0.131 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:28(__init__)
+       22    0.002    0.000    1.165    0.053 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:229(ffmpeg_parse_infos)
+       11    0.000    0.000    1.165    0.106 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\AudioFileClip.py:65(__init__)
+       11    0.000    0.000    1.164    0.106 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:42(__init__)
+       22    0.000    0.000    1.091    0.050 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1165(communicate)
+       22    0.000    0.000    1.073    0.049 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1603(_communicate)
+    44/22    0.000    0.000    1.015    0.046 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1598(_readerthread)
+       50    0.000    0.000    0.931    0.019 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:202(send)
+       60    0.000    0.000    0.931    0.016 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:284(_send_bytes)
+  134/115    0.003    0.000    0.920    0.008 {method 'close' of '_io.BufferedReader' objects}
+      278    0.721    0.003    0.721    0.003 {built-in method _winapi.WaitForSingleObject}
+       46    0.000    0.000    0.664    0.014 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1259(wait)
+       46    0.000    0.000    0.664    0.014 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1580(_wait)
+        1    0.000    0.000    0.643    0.643 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:196(__exit__)
+        1    0.000    0.000    0.643    0.643 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:182(close)
+       51    0.004    0.000    0.629    0.012 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:222(buffer_around)
+       51    0.022    0.000    0.613    0.012 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:109(read_chunk)
+      520    0.088    0.000    0.603    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:132(write_frame)
+        1    0.000    0.000    0.355    0.355 <decorator-gen-45>:1(write_audiofile)
+        1    0.000    0.000    0.355    0.355 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:145(write_audiofile)
+        1    0.000    0.000    0.355    0.355 <decorator-gen-9>:1(ffmpeg_audiowrite)
+        1    0.001    0.001    0.355    0.355 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py:143(ffmpeg_audiowrite)
+      979    0.327    0.000    0.327    0.000 {method 'tobytes' of 'numpy.ndarray' objects}
+      2/1    0.000    0.000    0.289    0.289 c:\Users\patri\Documents\GitHub\MusicClips\organizer.py:14(createMainLayout)
+      460    0.003    0.000    0.288    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:64(iter_chunks)
+      459    0.000    0.000    0.284    0.001 <decorator-gen-44>:1(to_soundarray)
+      459    0.003    0.000    0.283    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:88(to_soundarray)
+      459    0.021    0.000    0.275    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:292(make_frame)
+      979    0.246    0.000    0.246    0.000 {method 'write' of '_io.BufferedWriter' objects}
+     2259    0.001    0.000    0.182    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\AudioFileClip.py:77(<lambda>)
+     2259    0.089    0.000    0.181    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:156(get_frame)
+       58    0.162    0.003    0.162    0.003 {built-in method _winapi.CreateProcess}
+       46    0.004    0.000    0.137    0.003 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:807(__init__)
+       46    0.001    0.000    0.129    0.003 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1436(_execute_child)
+    10769    0.004    0.000    0.084    0.000 <decorator-gen-32>:1(is_playing)
+      2/1    0.000    0.000    0.081    0.081 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\compositing\CompositeVideoClip.py:48(__init__)
+       13    0.000    0.000    0.079    0.006 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:1002(__init__)
+       13    0.000    0.000    0.079    0.006 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\lib\_shape_base_impl.py:1197(tile)
+       13    0.079    0.006    0.079    0.006 {method 'repeat' of 'numpy.ndarray' objects}
+       11    0.000    0.000    0.064    0.006 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:566(add_mask)
+      459    0.000    0.000    0.059    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py:71(write_frames)
+      254    0.001    0.000    0.058    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:103(wait)
+        6    0.000    0.000    0.057    0.009 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:142(join)
+        4    0.007    0.002    0.054    0.014 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\__init__.py:120(dump)
+        4    0.049    0.012    0.049    0.012 {built-in method gc.collect}
+        2    0.000    0.000    0.049    0.025 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:305(_repopulate_pool)
+        2    0.000    0.000    0.049    0.025 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:314(_repopulate_pool_static)
+       12    0.000    0.000    0.048    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:110(start)
+       12    0.000    0.000    0.048    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:334(_Popen)
+       12    0.000    0.000    0.046    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:45(__init__)
+    17154    0.013    0.000    0.044    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\tools.py:69(cvsecs)
+    10769    0.025    0.000    0.043    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:320(is_playing)
+        1    0.000    0.000    0.041    0.041 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:153(split_load)
+        1    0.000    0.000    0.041    0.041 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:195(save_split_files)
+    17086    0.009    0.000    0.035    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:414(_iterencode)
+       11    0.001    0.000    0.033    0.003 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:67(initialize)
+       11    0.000    0.000    0.033    0.003 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:76(initialize)
+      520    0.004    0.000    0.033    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\compositing\CompositeVideoClip.py:116(playing_clips)
+    17155    0.026    0.000    0.030    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\tools.py:60(is_string)
+        1    0.001    0.001    0.026    0.026 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:82(optimize_script)
+26348/17086    0.015    0.000    0.025    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:278(_iterencode_list)
+        1    0.000    0.000    0.023    0.023 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:145(save_optimized_files)
+    16875    0.020    0.000    0.020    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     2598    0.016    0.000    0.016    0.000 {built-in method numpy.frombuffer}
+    17094    0.008    0.000    0.013    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+     7308    0.003    0.000    0.013    0.000 {method 'min' of 'numpy.ndarray' objects}
+       40    0.012    0.000    0.012    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py:219(vstack)
+     7308    0.002    0.000    0.012    0.000 {method 'max' of 'numpy.ndarray' objects}
+      111    0.011    0.000    0.011    0.000 {built-in method _io.open}
+     7308    0.001    0.000    0.011    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\_methods.py:46(_amin)
+    72872    0.010    0.000    0.010    0.000 {built-in method builtins.isinstance}
+     7308    0.001    0.000    0.010    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\_methods.py:42(_amax)
+    17041    0.007    0.000    0.009    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:334(_iterencode_dict)
+      9/4    0.000    0.000    0.009    0.002 <frozen importlib._bootstrap>:1349(_find_and_load)
+      9/4    0.000    0.000    0.009    0.002 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+      9/4    0.000    0.000    0.007    0.002 <frozen importlib._bootstrap>:911(_load_unlocked)
+      7/4    0.000    0.000    0.007    0.002 <frozen importlib._bootstrap_external>:989(exec_module)
+    20607    0.006    0.000    0.007    0.000 {built-in method builtins.hasattr}
+       11    0.000    0.000    0.006    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\VideoFileClip.py:123(close)
+    17082    0.003    0.000    0.006    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\encodings\cp1252.py:18(encode)
+     2270    0.001    0.000    0.005    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:3360(round)
+     21/8    0.000    0.000    0.005    0.001 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+      8/4    0.001    0.000    0.005    0.001 {built-in method builtins.exec}
+     2539    0.005    0.000    0.005    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:107(skip_frames)
+       46    0.003    0.000    0.005    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:576(list2cmdline)
+       33    0.002    0.000    0.004    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:188(close)
+        2    0.000    0.000    0.004    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py:119(close)
+     2259    0.001    0.000    0.004    0.000 {method 'any' of 'numpy.ndarray' objects}
+     2270    0.001    0.000    0.004    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:51(_wrapfunc)
+        3    0.000    0.000    0.004    0.001 {built-in method _warnings.warn}
+       25    0.000    0.000    0.004    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:374(empty)
+    10538    0.004    0.000    0.004    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.004    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:1(<module>)
+        1    0.000    0.000    0.004    0.004 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:68(__init__)
+        3    0.000    0.000    0.004    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\warnings.py:99(_showwarnmsg)
+      110    0.001    0.000    0.004    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\__init__.py:280(_compile)
+        3    0.000    0.000    0.004    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:2311(_showwarning)
+       46    0.001    0.000    0.004    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1335(_get_handles)
+       34    0.003    0.000    0.003    0.000 {built-in method _winapi.TerminateProcess}
+     2259    0.001    0.000    0.003    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\_methods.py:58(_any)
+       12    0.000    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:128(terminate)
+       12    0.000    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:124(terminate)
+       50    0.001    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:973(start)
+        1    0.000    0.000    0.003    0.003 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py:37(__init__)
+      481    0.003    0.000    0.003    0.000 {built-in method builtins.sum}
+    18734    0.003    0.000    0.003    0.000 {method 'items' of 'dict' objects}
+       12    0.000    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1660(_log)
+        5    0.000    0.000    0.003    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:740(compile)
+      506    0.000    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:218(Close)
+17828/17808    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+      418    0.003    0.000    0.003    0.000 {built-in method _winapi.CloseHandle}
+        7    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:1062(get_code)
+        6    0.000    0.000    0.003    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:110(SimpleQueue)
+        3    0.000    0.000    0.003    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\warnings.py:15(formatwarning)
+        3    0.000    0.000    0.003    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\warnings.py:35(_formatwarnmsg_impl)
+        2    0.000    0.000    0.003    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:345(_setup_queues)
+     2270    0.003    0.000    0.003    0.000 {method 'round' of 'numpy.ndarray' objects}
+        3    0.000    0.000    0.002    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\linecache.py:26(getline)
+        3    0.000    0.000    0.002    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\linecache.py:36(getlines)
+        1    0.000    0.000    0.002    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\linecache.py:80(updatecache)
+       46    0.001    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1282(_close_pipe_fds)
+       84    0.001    0.000    0.002    0.000 {method 'dump' of '_pickle.Pickler' objects}
+    17082    0.002    0.000    0.002    0.000 {built-in method _codecs.charmap_encode}
+     2272    0.002    0.000    0.002    0.000 {built-in method numpy.array}
+       24    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:58(dump)
+        5    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:969(parse)
+       21    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:333(_maintain_pool)
+      8/5    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:452(_parse_sub)
+        9    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1529(info)
+     10/5    0.002    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:512(_parse)
+    10249    0.002    0.000    0.002    0.000 {built-in method builtins.min}
+       21    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:289(_join_exited_workers)
+       88    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\__init__.py:174(search)
+        1    0.001    0.001    0.002    0.002 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:77(transpose)
+       55    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:24(apply_to_mask)
+        1    0.000    0.000    0.002    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tokenize.py:445(open)
+        9    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+       22    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\__init__.py:209(findall)
+     2718    0.002    0.000    0.002    0.000 {built-in method numpy.zeros}
+        6    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:361(__init__)
+    15/11    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+       44    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:36(apply_to_audio)
+      452    0.001    0.000    0.002    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:124(finalize_block)
+        2    0.000    0.000    0.002    0.001 {built-in method builtins.__import__}
+       50    0.002    0.000    0.002    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    0.002    0.002 c:\Users\patri\Documents\GitHub\MusicClips\organizer.py:11(removeDir)
+      109    0.002    0.000    0.002    0.000 {built-in method _winapi.ReadFile}
+       12    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1686(handle)
+      190    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:224(exitcode)
+       12    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1746(callHandlers)
+       12    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1011(handle)
+       12    0.000    0.000    0.002    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1148(emit)
+       22    0.000    0.000    0.002    0.000 <decorator-gen-16>:1(set_start)
+        1    0.000    0.000    0.002    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tokenize.py:352(detect_encoding)
+        1    0.000    0.000    0.002    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tokenize.py:376(read_or_stop)
+        1    0.002    0.002    0.002    0.002 {method 'readline' of '_io.BufferedReader' objects}
+        7    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1183(get_data)
+        1    0.000    0.000    0.001    0.001 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:33(get_pack_notes)
+        1    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\shutil.py:710(rmtree)
+       11    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\AudioFileClip.py:86(close)
+       33    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:147(close_proc)
+       77    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:10(outplace)
+        1    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\shutil.py:619(_rmtree_unsafe)
+       50    0.001    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:882(__init__)
+       31    0.001    0.000    0.001    0.000 {built-in method nt._path_exists}
+      248    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:121(poll)
+        2    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\__init__.py:299(loads)
+       22    0.000    0.000    0.001    0.000 <decorator-gen-15>:1(set_start)
+       77    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:58(copy)
+       33    0.000    0.000    0.001    0.000 <decorator-gen-14>:1(set_start)
+      104    0.001    0.000    0.001    0.000 {built-in method _winapi.CreatePipe}
+        2    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\decoder.py:332(decode)
+    10635    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     1819    0.001    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:224(floatstr)
+        2    0.001    0.001    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\decoder.py:343(raw_decode)
+      455    0.000    0.000    0.001    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:204(sort_note_list)
+        9    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+      461    0.000    0.000    0.001    0.000 {built-in method builtins.sorted}
+        7    0.001    0.000    0.001    0.000 {built-in method _io.open_code}
+     1390    0.001    0.000    0.001    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:208(get_midi_value)
+        1    0.000    0.000    0.001    0.001 c:\Users\patri\Documents\GitHub\MusicClips\clipper.py:14(load_script)
+      7/6    0.000    0.000    0.001    0.000 <frozen os>:200(makedirs)
+       52    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:323(wait)
+      461    0.001    0.000    0.001    0.000 {built-in method numpy.arange}
+        6    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:65(Lock)
+      209    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\copy.py:61(copy)
+       62    0.001    0.000    0.001    0.000 {built-in method nt._path_isfile}
+        1    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\__init__.py:274(load)
+        8    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1520(find_spec)
+        8    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1491(_get_spec)
+        9    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1593(find_spec)
+       46    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:567(__exit__)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1287(create_module)
+     3257    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.create_dynamic}
+        6    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:552(Pipe)
+       60    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:48(dumps)
+       22    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:319(get_tbr)
+       33    0.000    0.000    0.001    0.000 <decorator-gen-13>:1(set_start)
+        1    0.000    0.000    0.001    0.001 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:1(<module>)
+       12    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1645(makeRecord)
+        3    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1541(warning)
+       46    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1135(_get_devnull)
+        7    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:751(_compile_bytecode)
+        7    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+       12    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:298(__init__)
+       26    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+        4    0.001    0.000    0.001    0.000 {built-in method nt.unlink}
+       46    0.001    0.000    0.001    0.000 {built-in method nt.open}
+       25    0.001    0.000    0.001    0.000 {built-in method nt.stat}
+     2550    0.001    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:82(<lambda>)
+      184    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:530(callback)
+       24    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+       52    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:616(set)
+        6    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:70(arbitrary_address)
+        7    0.001    0.000    0.001    0.000 {built-in method nt.mkdir}
+       21    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:284(_get_worker_sentinels)
+        5    0.001    0.000    0.001    0.000 {built-in method builtins.print}
+       27    0.001    0.000    0.001    0.000 {built-in method _winapi.PeekNamedPipe}
+      175    0.001    0.000    0.001    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
+       48    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:1161(reduce_pipe_connection)
+       95    0.000    0.000    0.001    0.000 <frozen ntpath>:107(join)
+        2    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:506(_handle_workers)
+        2    0.000    0.000    0.001    0.000 c:\Users\patri\Documents\GitHub\MusicClips\organizer.py:6(createDir)
+        2    0.000    0.000    0.001    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+       44    0.001    0.000    0.001    0.000 {built-in method _pickle.loads}
+       84    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:38(__init__)
+       38    0.000    0.000    0.001    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:809(_set)
+       36    0.000    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+      152    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:179(Process)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:83(get_command_line)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:391(put)
+      184    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:477(_exit_wrapper)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:80(__init__)
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:424(notify_all)
+     4290    0.000    0.000    0.000    0.000 {built-in method _json.encode_basestring_ascii}
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tempfile.py:400(mktemp)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-26>:1(set_duration)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:573(_code)
+       44    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:588(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method nt.rmdir}
+       48    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:106(__init__)
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:394(notify)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-25>:1(set_duration)
+      138    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1414(_make_inheritable)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-24>:1(set_duration)
+       99    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\copy.py:247(_reconstruct)
+      159    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+      210    0.000    0.000    0.000    0.000 <frozen ntpath>:179(splitroot)
+     2270    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:3356(_round_dispatcher)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tempfile.py:153(__next__)
+       42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+      244    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:135(_check_closed)
+      462    0.000    0.000    0.000    0.000 <frozen os>:853(fsdecode)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:160(get_preparation_data)
+      356    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:247(sentinel)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:1(<module>)
+       60    0.000    0.000    0.000    0.000 {built-in method _winapi.WriteFile}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.remove}
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1043(_set_tstate_lock)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1611(findCaller)
+       22    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1667(terminate)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:350(__reduce__)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:299(helper)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+       26    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:77(__init__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\function_base.py:25(linspace)
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1106(_delete)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:182(send_bytes)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+      210    0.000    0.000    0.000    0.000 {built-in method _winapi.DuplicateHandle}
+      594    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:99(_check_closed)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:482(cache_from_source)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-23>:1(set_duration)
+     1497    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+      100    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+     17/5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:37(_compile)
+      150    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      615    0.000    0.000    0.000    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:214(get_key_code)
+       48    0.000    0.000    0.000    0.000 {built-in method _winapi.OpenProcess}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:61(_cleanup)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tempfile.py:142(rng)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:115(Pool)
+       88    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+       11    0.000    0.000    0.000    0.000 <decorator-gen-21>:1(set_end)
+      155    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:100(__getstate__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(path_stats)
+       20    0.000    0.000    0.000    0.000 <frozen ntpath>:236(split)
+       39    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:200(_is_internal_frame)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-20>:1(set_end)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-63>:1(set_mask)
+      113    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:169(fileno)
+      124    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1483(current_thread)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:141(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen os>:286(walk)
+       47    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+      201    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       79    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:277(__init__)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-19>:1(set_end)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:1(<module>)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:41(_wrapit)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:300(_args_from_interpreter_flags)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:161(__delitem__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:611(_get_cached)
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py:81(atleast_2d)
+       62    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\_weakrefset.py:85(add)
+       13    0.000    0.000    0.000    0.000 <frozen ntpath>:268(basename)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+      184    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:475(_create_cb_wrapper)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:104(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:988(format)
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1079(_stop)
+      547    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      520    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:907(<lambda>)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:511(_compile_info)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:168(__init__)
+       47    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:837(_newname)
+       99    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'object' objects}
+       39    0.000    0.000    0.000    0.000 <frozen ntpath>:51(normcase)
+       11    0.000    0.000    0.000    0.000 <decorator-gen-67>:1(set_position)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:183(__init__)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1423(_filter_handle_list)
+       13    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:884(__init__)
+      655    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+      150    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1234(daemon)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:1(<module>)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:50(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:690(format)
+      184    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:548(_push_exit_callback)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:132(__enter__)
+       91    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       50    0.000    0.000    0.000    0.000 {built-in method _thread._set_sentinel}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        7    0.000    0.000    0.000    0.000 {built-in method nt.lstat}
+       11    0.000    0.000    0.000    0.000 <decorator-gen-66>:1(set_position)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\config.py:86(get_setting)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:481(__init__)
+       46    0.000    0.000    0.000    0.000 {built-in method nt.close}
+      104    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:302(__exit__)
+      409    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 <decorator-gen-18>:1(set_end)
+       22    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:153(is_alive)
+      104    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:314(_is_owned)
+       58    0.000    0.000    0.000    0.000 {built-in method _winapi.GetExitCodeProcess}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1137(flush)
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:257(splitext)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tempfile.py:76(_exists)
+       14    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:189(__init__)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1120(__del__)
+       62    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\_weakrefset.py:39(_remove)
+       17    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:243(_optimize_charset)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:99(duplicate_for_child)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1588(_get_spec)
+       51    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1249(daemon)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:385(get)
+      104    0.000    0.000    0.000    0.000 {built-in method msvcrt.open_osfhandle}
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:385(_guarded_task_generation)
+       44    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1354(_make_invoke_excepthook)
+      464    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method nt.scandir}
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py:215(_vhstack_dispatcher)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\enum.py:1562(__and__)
+       48    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1220(is_alive)
+      104    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:299(__enter__)
+        4    0.000    0.000    0.000    0.000 {built-in method nt._path_isdir}
+      875    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+      994    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+      254    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:121(_make_name)
+      264    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:471(_map_async)
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1036(_set_ident)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:29(_close_handles)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\random.py:454(choices)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:1(<module>)
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:311(_acquire_restore)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:231(__call__)
+       22    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
+       92    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:223(Detach)
+       99    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\copyreg.py:98(__newobj__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:802(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:2149(getLogger)
+       65    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:1107(<genexpr>)
+       14    0.000    0.000    0.000    0.000 <frozen genericpath>:133(_splitext)
+       23    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       38    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:48(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+      120    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:366(get_spawning_popen)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1790(isEnabledFor)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1171(exec_module)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:131(__del__)
+       83    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:261(get)
+       48    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:372(assert_spawning)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:71(duplicate)
+       12    0.000    0.000    0.000    0.000 <frozen ntpath>:87(isabs)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:173(Pool)
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:633(_get_tasks)
+       39    0.000    0.000    0.000    0.000 {built-in method _winapi.LCMapStringEx}
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:377(__getstate__)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:47(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:674(formatMessage)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1377(getLogger)
+       71    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:139(_check_readable)
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py:207(_arrays_for_stack_dispatcher)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:208(recv_bytes)
+      236    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       88    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\tools.py:100(<genexpr>)
+       90    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+     20/8    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:178(getwidth)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:277(_close)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:205(iterencode)
+      348    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:1(<module>)
+      168    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+      114    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:168(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\encodings\cp1252.py:22(decode)
+       14    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\numeric.py:1918(isscalar)
+       96    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:462(format)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:968(acquire)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+      160    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+      106    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:240(__next)
+      118    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:98(closegroup)
+      140    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\shutil.py:606(_rmtree_islink)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:796(__init__)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:369(set_spawning_popen)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
+       46    0.000    0.000    0.000    0.000 {built-in method sys.exc_info}
+       74    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:455(_format)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:193(__init__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+      6/2    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedWriter' objects}
+       46    0.000    0.000    0.000    0.000 {built-in method msvcrt.get_osfhandle}
+      104    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\random.py:126(__init__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:668(usesTime)
+       50    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1040(_set_native_id)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:666(_classify_pyc)
+      6/2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       72    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+      108    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FF8E4AC7A20}
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:128(seek)
+      160    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       67    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
+        4    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\enum.py:726(__call__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:170(<lambda>)
+       52    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:308(_release_save)
+       50    0.000    0.000    0.000    0.000 {built-in method sys.settrace}
+       36    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:92(<genexpr>)
+       92    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1311(_on_error_fd_closer)
+       33    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:216(set_start)
+       66    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1239(_remaining_time)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:138(_check_not_importing_main)
+      156    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:601(is_set)
+        6    0.000    0.000    0.000    0.000 {built-in method _winapi.ConnectNamedPipe}
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:747(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:378(default_bar_logger)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1295(exec_module)
+       58    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:48(debug)
+      104    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      184    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+       56    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:256(match)
+       30    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\enum.py:1544(_get_value)
+       17    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:216(_compile_charset)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\random.py:135(seed)
+       60    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:70(<genexpr>)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\copyreg.py:107(_slotnames)
+       42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        9    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\_distutils_hack\__init__.py:102(find_spec)
+       32    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:449(_uniq)
+        4    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:447(usesTime)
+        1    0.000    0.000    0.000    0.000 <decorator-gen-42>:1(iter_frames)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:699(_validate_timestamp_pyc)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+      7/5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:436(_get_literal_prefix)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:94(<genexpr>)
+       52    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
+       12    0.000    0.000    0.000    0.000 {method 'as_arrays' of 'numpy._core._multiarray_umath._array_converter' objects}
+       96    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:159(readable)
+       53    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+       12    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+       44    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_winapi.Overlapped' objects}
+        8    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:234(_acquireLock)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+       88    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:260(_make_iterencode)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:129(getLevelName)
+        4    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+       20    0.000    0.000    0.000    0.000 <frozen ntpath>:35(_get_bothseps)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\AudioClip.py:281(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:290(_optim_args_from_interpreter_flags)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:198(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:35(Queue)
+        1    0.000    0.000    0.000    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:55(can_transpose)
+       12    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:176(append)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:975(release)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:94(__enter__)
+       26    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\lib\_shape_base_impl.py:1279(<genexpr>)
+       25    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\weakref.py:104(__init__)
+       66    0.000    0.000    0.000    0.000 {method 'start' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _winapi.SetNamedPipeHandleState}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+       35    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+      102    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       48    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\threading.py:1180(name)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:231(__init__)
+       50    0.000    0.000    0.000    0.000 {built-in method _thread.daemon_threads_allowed}
+       80    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:193(name)
+        1    0.000    0.000    0.000    0.000 <decorator-gen-41>:1(iter_frames)
+        9    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:1563(_internal_poll)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:674(set_position)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:831(filter)
+       49    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       42    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:37(current_process)
+        6    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       13    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+       31    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:293(tell)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:928(__init__)
+       35    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+      110    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\copy.py:102(_copy_immutable)
+       60    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:143(_check_writable)
+       96    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:164(writable)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\warnings.py:421(__init__)
+        7    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:398(_simple)
+        2    0.000    0.000    0.000    0.000 {function Random.seed at 0x000002517DF5F560}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:125(__init__)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:269(set_duration)
+       70    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:118(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:233(<lambda>)
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\contextlib.py:564(__enter__)
+       12    0.000    0.000    0.000    0.000 {built-in method nt._path_normpath}
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:164(__len__)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:383(getMessage)
+       46    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+       36    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:189(name)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:86(opengroup)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:643(_check_name_wrapper)
+       96    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+       46    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\subprocess.py:259(_cleanup)
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\multiarray.py:161(concatenate)
+       12    0.000    0.000    0.000    0.000 {built-in method time.time}
+       22    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+       12    0.000    0.000    0.000    0.000 {method 'wrap' of 'numpy._core._multiarray_umath._array_converter' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:253(get_start_method)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:115(_ConnectionBase)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\readers.py:252(__del__)
+        9    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1428(_fixupParents)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\Clip.py:247(set_end)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen os>:1116(__subclasshook__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\numerictypes.py:470(issubdtype)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:169(iter_bar)
+        1    0.000    0.000    0.000    0.000 {method 'result_type' of 'numpy._core._multiarray_umath._array_converter' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1469(_path_importer_cache)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:234(ident)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+       53    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       96    0.000    0.000    0.000    0.000 {built-in method math.floor}
+       50    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+       50    0.000    0.000    0.000    0.000 {built-in method _thread.get_native_id}
+       53    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        8    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:243(_releaseLock)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tempfile.py:229(_get_candidate_names)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:745(ApplyResult)
+       19    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:113(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1497(__init__)
+        8    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1776(getEffectiveLevel)
+       32    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:370(Barrier)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\tokenize.py:382(find_cookie)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\json\encoder.py:105(__init__)
+       24    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:45(get_executable)
+       12    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        4    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:157(__init__)
+       16    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:83(groups)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\spawn.py:36(set_executable)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:97(__exit__)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\enum.py:1129(__new__)
+       40    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py:77(_atleast_2d_dispatcher)
+        5    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       14    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+       22    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:46(SemLock)
+        5    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:921(ThreadPool)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:734(__enter__)
+       10    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:570(isstring)
+       43    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:205(daemon)
+       14    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:656(PipeListener)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:150(_PoolCache)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:279(_get_sentinels)
+       11    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\VideoClip.py:655(set_mask)
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:953(fix_flags)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:892(_addHandlerRef)
+       21    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\weakref.py:289(update)
+       13    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\lib\_shape_base_impl.py:1269(<genexpr>)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:756(ready)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:467(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\tools.py:164(find_extension)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:90(_make_methods)
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        4    0.000    0.000    0.000    0.000 {method '__enter__' of '_multiprocessing.SemLock' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\process.py:213(authkey)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:364(Connection)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:217(Condition)
+        9    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+       14    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:44(sub_debug)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:407(_generate_overlap_table)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:266(__del__)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:104(_check_methods)
+       12    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:187(get_context)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:359(SimpleQueue)
+        2    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       13    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\lib\_shape_base_impl.py:1193(_tile_dispatcher)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:185(Finalize)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:448(Listener)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:838(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1702(addHandler)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1103(_resolve_filename)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:268(PipeConnection)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py:130(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:30(__init__)
+        9    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:662(spec_from_loader)
+        1    0.000    0.000    0.000    0.000 <decorator-gen-43>:1(iter_chunks)
+        5    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:77(__init__)
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of '_multiprocessing.SemLock' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:237(get_context)
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:31(_combine_flags)
+        5    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\context.py:197(get_start_method)
+        1    0.000    0.000    0.000    0.000 c:\Users\patri\Documents\GitHub\MusicClips\scripter.py:189(calculate_batch_size)
+        6    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1158(create_module)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:372(_escape)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\decorators.py:112(fun)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        9    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_compiler.py:428(_get_iscased)
+        6    0.000    0.000    0.000    0.000 {method 'is_dir' of 'nt.DirEntry' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1153(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:108(_platform_supports_abstract_sockets)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\queues.py:316(JoinableQueue)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1369(disable)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\numerictypes.py:288(issubclass_)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\reduction.py:43(register)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:80(MaybeEncodingError)
+        4    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:351(_check_running)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:39(Popen)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:986(create_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:837(IMapIterator)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:208(_checkLevel)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:26(_TempModule)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:371(ForkAwareThreadLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:328(Event)
+        7    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:172(__setitem__)
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:596(SocketListener)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:970(ConnectionWrapper)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:3267(ndim)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:49(_ModifiedArgv0)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:811(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'getvalue' of '_io.BytesIO' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:49(callback)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of 'nt.ScandirIterator' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:57(RemoteTraceback)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:130(Semaphore)
+        2    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        2    0.000    0.000    0.000    0.000 {method 'popitem' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1178(get_filename)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:63(ExceptionWithTraceback)
+        3    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:2295(handle)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:794(MapResult)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\util.py:388(ForkAwareLocal)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:149(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:166(Lock)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\re\_parser.py:166(__delitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\function_base.py:20(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:166(_Error)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\pool.py:906(IMapUnorderedIterator)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\connection.py:992(XmlListener)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\synchronize.py:191(RLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:1317(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\proglog\proglog.py:375(bar_is_ignored)
+        1    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISLNK}
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.get_frozen_object}
+        2    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\_distutils_hack\__init__.py:109(<lambda>)
+        1    0.000    0.000    0.000    0.000 {built-in method gc.enable}
+        2    0.000    0.000    0.000    0.000 {method 'is_junction' of 'nt.DirEntry' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\multiprocessing\popen_spawn_win32.py:23(_path_eq)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\logging\__init__.py:2301(createLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\AppData\Roaming\Python\Python312\site-packages\numpy\_core\fromnumeric.py:3263(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 C:\Users\patri\anaconda3\envs\MusicClips\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py:193(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1276(__init__)
+
+

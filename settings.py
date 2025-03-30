@@ -8,7 +8,7 @@ AFTER_RECORDING_OF_COMPRESSED_BLOCKS = False #Record blocks instead of joining t
 
 ######  PATHS  ######
 help_clips_path = "./data/helpClips"
-scripts_path = "./data/scripts"
+scripts_path = "/scripts"
 JSONS_PATH = "./data/jsons"
 MIDIS_PATH = "./data/midis"
 PACKS_PATH = "./data/packs"

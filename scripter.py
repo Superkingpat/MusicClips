@@ -1,188 +1,216 @@
 import json
+import os
+import gc
 from os import listdir
 from os.path import isfile, join
-import gc
-from settings import *
+from settings import NOTE_LIST, scripts_path, BATCH_SIZE
 
-def checkScript(script, pack_name):
+def check_script(script, pack_name):
     """
-    The function `checkScript` compares notes in a script with notes in a pack, identifies missing
-    notes, and offers to transpose the song if possible.
+    Checks if all notes in the script exist in the pack, offers transposition if needed.
     
-    :param script: The `script` parameter seems to be a list of dictionaries where each dictionary
-    contains a "note" key. The function `checkScript` is designed to compare the notes in the script
-    with the  pack directorynotes present in a specified
-    :param pack_name: The `pack_name` parameter in the `checkScript` function is the name of the
-    directory where the video files are located. The function checks if the notes in the script are
-    present in the video pack specified by `pack_name`. If any notes are missing, it provides
-    information on the missing notes
-    :return: The function `checkScript` is returning the `script` variable if no transposition is
-    needed. If transposition is possible and the user provides a valid transposition value, then the
-    function will return the result of the `transpose` function with the specified transposition value
-    applied to the `script` and `pack_name` variables.
+    Args:
+        script: List of note dictionaries
+        pack_name: Path to the pack directory
+        
+    Returns:
+        The original or transposed script
     """
-    script_notes = set()
-    pack_notes = sort([f.replace(".mp4","") for f in listdir(pack_name) if (isfile(join(pack_name, f)) and f.endswith(".mp4"))]) #List of suppoorted notes
-    missing_notes = []
+    if not script:
+        raise ValueError("Script is empty")
+    if not os.path.exists(pack_name):
+        raise FileNotFoundError(f"Pack directory not found: {pack_name}")
 
-    for x in script:
-        script_notes.add(x["note"])
+    script_notes = {x["note"] for x in script}
+    pack_notes = get_pack_notes(pack_name)
+    missing_notes = [note for note in script_notes if note not in pack_notes]
 
-    for note in script_notes:
-        if (note not in pack_notes):
-            missing_notes.append(note)
+    if missing_notes:
+        script = handle_missing_notes(script_notes, pack_notes, missing_notes, script, pack_name)
 
-    script_notes = sort(script_notes)
-
-    if missing_notes != []:
-        print("Song range: ", script_notes[0], " - ", script_notes[-1])
-        print("Pack range: ", pack_notes[0], " - ", pack_notes[-1])
-        print("Missing notes: ", missing_notes)
-
-        if (midiValue(script_notes[-1]) - midiValue(script_notes[0]) < midiValue(pack_notes[-1]) - midiValue(pack_notes[0])):
-            print("It's possible to transpose the song.")
-            print("Where to you want to transpose song? MIN:",  (midiValue(pack_notes[0]) - midiValue(script_notes[0])), " MAX:", (midiValue(pack_notes[-1]) - midiValue(script_notes[-1])))
-            value = None
-            while(type(value) != int):
-                try:
-                    value = int(input("Transposition value [INTEGER]: "))
-                except ValueError:
-                    print("You didn't insert a number!")
-                except Exception as e:
-                    print("Unresovled error: " + e)
-            if (midiValue(pack_notes[0]) - midiValue(script_notes[0])) < value and (midiValue(pack_notes[-1]) - midiValue(script_notes[-1]) > value and value != 0):
-                return transpose(value, script, pack_name)
-            
     return script
 
-def transpose(num: int, script, pack_name):
-    for x in range(0,len(script)):
-        script[x]["note"] = keyCode(midiValue(script[x]["note"]) + num)
-    return script
+def get_pack_notes(pack_name):
+    """Get sorted list of available notes in the pack"""
+    return sort_note_list([
+        f.replace(".mp4", "") 
+        for f in listdir(pack_name) 
+        if isfile(join(pack_name, f)) and f.endswith(".mp4")
+    ])
 
-def instrumentToPack(script):
-    pass
+def handle_missing_notes(script_notes, pack_notes, missing_notes, script, pack_name):
+    """Handles cases where notes are missing from the pack"""
+    sorted_script = sort_note_list(script_notes)
+    sorted_pack = sort_note_list(pack_notes)
+    
+    print(f"Song range: {sorted_script[0]} - {sorted_script[-1]}")
+    print(f"Pack range: {sorted_pack[0]} - {sorted_pack[-1]}")
+    print(f"Missing notes: {missing_notes}")
 
-def optimizeScript(script, pack_name):
-    note_list = set() #USED NOTES
+    if can_transpose(sorted_script, sorted_pack):
+        transposition_value = get_transposition_input(sorted_script, sorted_pack)
+        if transposition_value != 0:
+            return transpose(transposition_value, script)
+
+def can_transpose(script_notes, pack_notes):
+    """Check if transposition is possible"""
+    script_range = get_midi_value(script_notes[-1]) - get_midi_value(script_notes[0])
+    pack_range = get_midi_value(pack_notes[-1]) - get_midi_value(pack_notes[0])
+    return script_range < pack_range
+
+def get_transposition_input(script_notes, pack_notes):
+    """Get valid transposition value from user"""
+    min_trans = get_midi_value(pack_notes[0]) - get_midi_value(script_notes[0])
+    max_trans = get_midi_value(pack_notes[-1]) - get_midi_value(script_notes[-1])
+    
+    print(f"Possible to transpose. Min: {min_trans}, Max: {max_trans}")
+    
+    while True:
+        try:
+            value = int(input("Transposition value [INTEGER] (0 to skip): "))
+            if min_trans <= value <= max_trans:
+                return value
+            print(f"Value must be between {min_trans} and {max_trans}")
+        except ValueError:
+            print("Please enter a valid integer")
+
+def transpose(num: int, script):
+    """Transpose all notes in script by given number of semitones"""
+    return [{"note": get_key_code(get_midi_value(x["note"]) + num), **{k:v for k,v in x.items() if k != "note"}} 
+            for x in script]
+
+def optimize_script(script, pack_name, output_dir=None):
+    """
+    Optimizes script by combining simultaneous notes into blocks.
+    
+    Args:
+        script: List of note dictionaries
+        pack_name: Path to pack directory
+        output_dir: Where to save optimized files (defaults to settings.scripts_path)
+        
+    Returns:
+        tuple: (used_notes, optimized_script, blocks)
+    """
+    output_dir = output_dir or scripts_path
+    os.makedirs(output_dir, exist_ok=True)
+
+    note_list = set()
     new_script = []
-    tmp_script = {"time": 0, "duration": 0}
     blocks = []
-    notes = []
-    shorten = False
-    index = 0
+    current_block = None
     note_array = []
 
-    for i in range(0,len(script)):
-        if (len(script) == i):
-            note_list.add(script[i-1]["note"])
-            new_script.append(script[i-1])
-            if (shorten):
-                new_script[-1]["note"] = "X" + str(index)
-                blocks.append({"notes": notes, "time": script[i]["time"], "duration": script[i]["duration"], "index": index, "pack_name": pack_name})
-                index += 1
-                tmp_script = {"time": 0, "duration": 0}
-                notes = []
-                shorten = False
-            break
+    for i, note in enumerate(script):
+        if current_block and (note["time"] != current_block["time"] or note["duration"] != current_block["duration"]):
+            finalize_block(current_block, new_script, blocks, note_array)
+            current_block = None
 
-        if (tmp_script["time"] == script[i]["time"] and tmp_script["duration"] == script[i]["duration"]): #If note has same time and duration as previous one
-            if (not shorten):
-                notes.append(script[i-1]["note"])
-            notes.append(script[i]["note"])
-            shorten = True
-            continue
-        elif (tmp_script["time"] != 0 and tmp_script["duration"] != 0): #add note to script
-            note_list.add(script[i-1]["note"])
-            new_script.append(script[i-1])
+        if not current_block:
+            current_block = {
+                "time": note["time"],
+                "duration": note["duration"],
+                "notes": [note["note"]]
+            }
+            note_list.add(note["note"])
+        else:
+            current_block["notes"].append(note["note"])
 
-            if (shorten): # write a block
-                sort(notes)
-                if notes in note_array:
-                    new_script[-1]["note"] = "X" + str(note_array.index(notes))
-                else:
-                    new_script[-1]["note"] = "X" + str(index)
-                    note_array.append(notes)
-                    blocks.append({"notes": notes, "index": index, "pack_name": pack_name})
-                    index += 1
-                notes = []
-                shorten = False
-            tmp_script = {"time": 0, "duration": 0}
+    if current_block:
+        finalize_block(current_block, new_script, blocks, note_array)
 
-        if (tmp_script["time"] == 0 and tmp_script["duration"] == 0):
-            tmp_script["time"] = script[i]["time"]
-            tmp_script["duration"] = script[i]["duration"]
-
-    file = open(scripts_path+"/optimisedScript.json", "w")
-    file.write(json.dumps(new_script).replace("},", "},\n"))
-
-    file = open(scripts_path+"/blocks.json", "w")
-    file.write(json.dumps(blocks).replace("},", "},\n"))
-
-    gc.collect()
-
+    save_optimized_files(output_dir, new_script, blocks)
     return note_list, new_script, blocks
 
-def splitLoad(script):
-    output = []
-    tmp = []
-    final_script = []
-    count = 0
-    if (len(script) / 100 > BATCH_SIZE):
-        #Deli na datoteke po 100 not
-        for x in range(0,len(script)):
-            tmp.append(script[x])
-            tmp[-1]["index"] = count
-            if ((x+1) % 101 == 0):
-                output.append(tmp)
-                final_script.append({"note": "Y"+str(count), "time": tmp[0]["time"]})
-                tmp = []
-                count += 1
-    elif (len(script) < 100):
-        for x in script:
-            tmp.append(x)
-            tmp[-1]["index"] = 0
-    else:
-        #Razdeli na enakomerne datoteke do 100 not
-        num_of_elements = round(len(script) / BATCH_SIZE)
-        print(num_of_elements)
-        for x in range(0,len(script)):
-            tmp.append(script[x])
-            tmp[-1]["index"] = count
-            if ((x+1) % num_of_elements == 0):
-                output.append(tmp)
-                final_script.append({"note": "Y"+str(count), "time": tmp[0]["time"]})
-                tmp = []
-                count += 1
-
-    if (tmp != []):
-        output.append(tmp)
-        final_script.append({"note": "Y"+str(count), "time": tmp[0]["time"]})
-
-    file = open(scripts_path+"/splitedScript.json", "w")
-    file.write(json.dumps(output).replace("},", "},\n"))
-
-    file = open(scripts_path+"/final_script.json", "w")
-    file.write(json.dumps(final_script).replace("},", "},\n"))
-
-    gc.collect()
-
-    return output, final_script
-
-## HELP FUNCTIONS ##
-
-def sort(set):
-    set = list(set)
-    for x in range(0,len(set)):
-        for y in range(x+1,len(set)):
-            if (midiValue(set[x]) > midiValue(set[y])):
-                set[x], set[y] = set[y], set[x]
-    return set
+def finalize_block(block, new_script, blocks, note_array):
+    """Finalize a block of simultaneous notes"""
+    block["notes"] = sort_note_list(block["notes"])
+    new_note = {
+        "note": block["notes"][0] if len(block["notes"]) == 1 else f"X{len(blocks)}",
+        "time": block["time"],
+        "duration": block["duration"]
+    }
+    new_script.append(new_note)
     
-def midiValue(keyCode):
-    return int(keyCode[-1])*12+int(NOTE_LIST.index(keyCode.rstrip(keyCode[-1])))
+    if len(block["notes"]) > 1:
+        if block["notes"] in note_array:
+            new_note["note"] = f"X{note_array.index(block['notes'])}"
+        else:
+            note_array.append(block["notes"])
+            blocks.append({
+                "notes": block["notes"],
+                "index": len(blocks),
+                "pack_name": block.get("pack_name")
+            })
 
-def keyCode(midiValue):
-    return NOTE_LIST[midiValue%12] + str(int(midiValue/12)) 
+def save_optimized_files(output_dir, new_script, blocks):
+    """Save optimized script and blocks to files"""
+    with open(os.path.join(output_dir, "optimisedScript.json"), "w") as f:
+        json.dump(new_script, f, indent=2)
+    
+    with open(os.path.join(output_dir, "blocks.json"), "w") as f:
+        json.dump(blocks, f, indent=2)
 
-####################
+def split_load(script, output_dir=None):
+    """
+    Splits script into batches for parallel processing.
+    
+    Args:
+        script: List of note dictionaries
+        output_dir: Where to save split files (defaults to settings.scripts_path)
+        
+    Returns:
+        tuple: (list of batches, final script)
+    """
+    output_dir = output_dir or scripts_path
+    os.makedirs(output_dir, exist_ok=True)
+
+    batch_size = calculate_batch_size(len(script))
+    batches = []
+    final_script = []
+    
+    for i in range(0, len(script), batch_size):
+        batch = script[i:i + batch_size]
+        batch_number = len(batches)
+        
+        # Add index to each note in batch
+        processed_batch = [{**note, "index": batch_number} for note in batch]
+        batches.append(processed_batch)
+        
+        # Add to final script
+        if batch:
+            final_script.append({
+                "note": f"Y{batch_number}",
+                "time": batch[0]["time"]
+            })
+
+    save_split_files(output_dir, batches, final_script)
+    return batches, final_script
+
+def calculate_batch_size(script_length):
+    """Determine optimal batch size based on script length"""
+    if script_length < 100:
+        return script_length
+    return max(1, script_length // BATCH_SIZE)
+
+def save_split_files(output_dir, batches, final_script):
+    """Save split script files"""
+    with open(os.path.join(output_dir, "splitedScript.json"), "w") as f:
+        json.dump(batches, f, indent=2)
+    
+    with open(os.path.join(output_dir, "final_script.json"), "w") as f:
+        json.dump(final_script, f, indent=2)
+
+# Helper functions
+def sort_note_list(note_list):
+    """Sort notes by their MIDI value"""
+    return sorted(note_list, key=get_midi_value)
+
+def get_midi_value(keyCode):
+    """Convert note name to MIDI value"""
+    if not keyCode or len(keyCode) < 2:
+        raise ValueError(f"Invalid note format: {keyCode}")
+    return int(keyCode[-1]) * 12 + NOTE_LIST.index(keyCode[:-1])
+
+def get_key_code(midiValue):
+    """Convert MIDI value to note name"""
+    return NOTE_LIST[midiValue % 12] + str(midiValue // 12)

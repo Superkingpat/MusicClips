@@ -1,615 +1,4307 @@
-[{"note": "G4", "instrument": 1, "time": 2.0, "duration": 0.23645833333333321},
- {"note": "A4", "instrument": 1, "time": 2.25, "duration": 0.23645833333333344},
- {"note": "B4", "instrument": 1, "time": 2.5, "duration": 0.23645833333333344},
- {"note": "B4", "instrument": 1, "time": 2.75, "duration": 0.9489583333333333},
- {"note": "C3", "instrument": 4, "time": 2.75, "duration": 1.9989583333333336},
- {"note": "E3", "instrument": 4, "time": 2.75, "duration": 1.9989583333333336},
- {"note": "G3", "instrument": 4, "time": 2.75, "duration": 1.9989583333333336},
- {"note": "G4", "instrument": 1, "time": 4.0, "duration": 0.23645833333333321},
- {"note": "A4", "instrument": 1, "time": 4.25, "duration": 0.23645833333333321},
- {"note": "B4", "instrument": 1, "time": 4.5, "duration": 0.23645833333333321},
- {"note": "F#4", "instrument": 1, "time": 4.75, "duration": 0.9489583333333336},
- {"note": "D3", "instrument": 4, "time": 4.75, "duration": 1.9989583333333334},
- {"note": "F#3", "instrument": 4, "time": 4.75, "duration": 1.9989583333333334},
- {"note": "A3", "instrument": 4, "time": 4.75, "duration": 1.9989583333333334},
- {"note": "G4", "instrument": 1, "time": 6.0, "duration": 0.23645833333333321},
- {"note": "A4", "instrument": 1, "time": 6.25, "duration": 0.23645833333333321},
- {"note": "B4", "instrument": 1, "time": 6.5, "duration": 0.23645833333333321},
- {"note": "D5", "instrument": 1, "time": 6.75, "duration": 0.9489583333333336},
- {"note": "B2", "instrument": 4, "time": 6.75, "duration": 1.9989583333333334},
- {"note": "D3", "instrument": 4, "time": 6.75, "duration": 1.9989583333333334},
- {"note": "A3", "instrument": 4, "time": 6.75, "duration": 1.9989583333333334},
- {"note": "B4", "instrument": 1, "time": 8.0, "duration": 0.23645833333333321},
- {"note": "D5", "instrument": 1, "time": 8.0, "duration": 0.23645833333333321},
- {"note": "A4", "instrument": 1, "time": 8.25, "duration": 0.23645833333333321},
- {"note": "C5", "instrument": 1, "time": 8.25, "duration": 0.23645833333333321},
- {"note": "G4", "instrument": 1, "time": 8.5, "duration": 0.23645833333333321},
- {"note": "B4", "instrument": 1, "time": 8.5, "duration": 0.23645833333333321},
- {"note": "A4", "instrument": 1, "time": 8.75, "duration": 0.9489583333333336},
- {"note": "D3", "instrument": 4, "time": 8.75, "duration": 1.9989583333333325},
- {"note": "F#3", "instrument": 4, "time": 8.75, "duration": 1.9989583333333325},
- {"note": "A3", "instrument": 4, "time": 8.75, "duration": 1.9989583333333325},
- {"note": "G4", "instrument": 1, "time": 10.0, "duration": 0.1239583333333325},
- {"note": "A4", "instrument": 1, "time": 10.25, "duration": 0.1239583333333325},
- {"note": "B4", "instrument": 1, "time": 10.5, "duration": 0.1239583333333325},
- {"note": "C5", "instrument": 1, "time": 10.75, "duration": 0.9489583333333336},
- {"note": "C3", "instrument": 4, "time": 10.75, "duration": 0.4989583333333325},
- {"note": "E3", "instrument": 4, "time": 10.75, "duration": 0.4989583333333325},
- {"note": "G3", "instrument": 4, "time": 10.75, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 10.75, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 11.25, "duration": 0.2489583333333325},
- {"note": "C3", "instrument": 4, "time": 11.5, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 4, "time": 11.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 4, "time": 11.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 11.5, "duration": 0.24895833333333428},
- {"note": "C5", "instrument": 0, "time": 12.000000000000002, "duration": 0.1239583333333325},
- {"note": "C5", "instrument": 1, "time": 12.000000000000002, "duration": 0.1239583333333325},
- {"note": "D5", "instrument": 0, "time": 12.250000000000002, "duration": 0.1239583333333325},
- {"note": "D5", "instrument": 1, "time": 12.250000000000002, "duration": 0.1239583333333325},
- {"note": "E5", "instrument": 0, "time": 12.500000000000002, "duration": 0.1239583333333325},
- {"note": "B4", "instrument": 1, "time": 12.500000000000002, "duration": 0.1239583333333325},
- {"note": "F#5", "instrument": 0, "time": 12.750000000000002, "duration": 0.9489583333333336},
- {"note": "A4", "instrument": 1, "time": 12.750000000000002, "duration": 0.9489583333333336},
- {"note": "D3", "instrument": 4, "time": 12.750000000000002, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 4, "time": 12.750000000000002, "duration": 0.4989583333333325},
- {"note": "A3", "instrument": 4, "time": 12.750000000000002, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 12.750000000000002, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 13.250000000000002, "duration": 0.2489583333333325},
- {"note": "D3", "instrument": 4, "time": 13.500000000000002, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 4, "time": 13.500000000000002, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 4, "time": 13.500000000000002, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 13.500000000000002, "duration": 0.24895833333333428},
- {"note": "F#5", "instrument": 0, "time": 14.000000000000004, "duration": 0.1239583333333325},
- {"note": "A2", "instrument": 3, "time": 14.000000000000004, "duration": 0.2489583333333325},
- {"note": "A4", "instrument": 1, "time": 14.000000000000004, "duration": 0.1239583333333325},
- {"note": "G5", "instrument": 0, "time": 14.250000000000004, "duration": 0.1239583333333325},
- {"note": "G2", "instrument": 3, "time": 14.250000000000004, "duration": 0.2489583333333325},
- {"note": "B4", "instrument": 1, "time": 14.250000000000004, "duration": 0.1239583333333325},
- {"note": "A5", "instrument": 0, "time": 14.500000000000004, "duration": 0.1239583333333325},
- {"note": "F#2", "instrument": 3, "time": 14.500000000000004, "duration": 0.2489583333333325},
- {"note": "C5", "instrument": 1, "time": 14.500000000000004, "duration": 0.1239583333333325},
- {"note": "B5", "instrument": 0, "time": 14.750000000000004, "duration": 0.9489583333333336},
- {"note": "F#2", "instrument": 3, "time": 14.750000000000004, "duration": 0.9989583333333343},
- {"note": "D5", "instrument": 1, "time": 14.750000000000004, "duration": 0.9489583333333336},
- {"note": "D3", "instrument": 4, "time": 14.750000000000004, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 4, "time": 14.750000000000004, "duration": 0.4989583333333325},
- {"note": "B3", "instrument": 4, "time": 14.750000000000004, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 14.750000000000004, "duration": 0.4989583333333325},
- {"note": "F#3", "instrument": 5, "time": 15.250000000000004, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 4, "time": 15.500000000000004, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 4, "time": 15.500000000000004, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 4, "time": 15.500000000000004, "duration": 0.4989583333333343},
- {"note": "A5", "instrument": 0, "time": 15.750000000000005, "duration": 0.23645833333333321},
- {"note": "E2", "instrument": 3, "time": 15.750000000000005, "duration": 0.9989583333333325},
- {"note": "F#3", "instrument": 5, "time": 15.750000000000005, "duration": 0.9989583333333325},
- {"note": "B5", "instrument": 0, "time": 16.000000000000007, "duration": 0.23645833333333321},
- {"note": "E5", "instrument": 1, "time": 16.000000000000007, "duration": 0.1239583333333325},
- {"note": "G5", "instrument": 0, "time": 16.250000000000007, "duration": 0.47395833333333215},
- {"note": "D5", "instrument": 1, "time": 16.250000000000007, "duration": 0.1239583333333325},
- {"note": "E5", "instrument": 1, "time": 16.500000000000007, "duration": 0.1239583333333325},
- {"note": "D2", "instrument": 3, "time": 16.750000000000004, "duration": 0.9989583333333343},
- {"note": "D5", "instrument": 1, "time": 16.750000000000004, "duration": 0.9489583333333336},
- {"note": "D3", "instrument": 4, "time": 16.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 4, "time": 16.750000000000004, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 4, "time": 16.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 16.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 17.250000000000004, "duration": 0.24895833333333428},
- {"note": "D3", "instrument": 4, "time": 17.500000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 4, "time": 17.500000000000004, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 4, "time": 17.500000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 17.500000000000004, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 18.000000000000004, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 18.000000000000004, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 18.250000000000004, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 18.250000000000004, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 2, "time": 18.500000000000004, "duration": 0.236458333333335},
- {"note": "B4", "instrument": 0, "time": 18.500000000000004, "duration": 0.12395833333333428},
- {"note": "E4", "instrument": 2, "time": 18.750000000000004, "duration": 1.423958333333335},
- {"note": "E4", "instrument": 0, "time": 18.750000000000004, "duration": 0.24895833333333428},
- {"note": "C3", "instrument": 3, "time": 18.750000000000004, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 18.750000000000004, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 18.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 18.750000000000004, "duration": 0.4989583333333343},
- {"note": "E4", "instrument": 0, "time": 19.250000000000004, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 19.250000000000004, "duration": 0.24895833333333428},
- {"note": "E4", "instrument": 0, "time": 19.500000000000004, "duration": 0.236458333333335},
- {"note": "C3", "instrument": 3, "time": 19.500000000000004, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 19.500000000000004, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 19.500000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 19.500000000000004, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 19.750000000000004, "duration": 0.4989583333333343},
- {"note": "C3", "instrument": 3, "time": 20.000000000000004, "duration": 0.24895833333333428},
- {"note": "E3", "instrument": 3, "time": 20.000000000000004, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 20.000000000000004, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 20.250000000000004, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 20.250000000000004, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 2, "time": 20.500000000000004, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 20.500000000000004, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 2, "time": 20.750000000000004, "duration": 0.236458333333335},
- {"note": "B4", "instrument": 0, "time": 20.750000000000004, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 20.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 20.750000000000004, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 20.750000000000004, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 20.750000000000004, "duration": 0.4989583333333343},
- {"note": "A4", "instrument": 2, "time": 21.000000000000004, "duration": 0.47395833333333215},
- {"note": "A4", "instrument": 0, "time": 21.000000000000004, "duration": 0.236458333333335},
- {"note": "F#3", "instrument": 5, "time": 21.250000000000004, "duration": 0.24895833333333073},
- {"note": "F#4", "instrument": 2, "time": 21.5, "duration": 0.7114583333333329},
- {"note": "F#4", "instrument": 0, "time": 21.5, "duration": 0.236458333333335},
- {"note": "D3", "instrument": 3, "time": 21.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 21.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 21.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 21.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 21.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 22.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 22.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 22.0, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 22.25, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 22.25, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 2, "time": 22.5, "duration": 0.7114583333333329},
- {"note": "G4", "instrument": 0, "time": 22.5, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 0, "time": 22.5, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 22.75, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 0, "time": 22.75, "duration": 0.24895833333333428},
- {"note": "D3", "instrument": 3, "time": 22.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 22.75, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 22.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 22.75, "duration": 0.4989583333333343},
- {"note": "B4", "instrument": 2, "time": 23.25, "duration": 0.9489583333333336},
- {"note": "B4", "instrument": 0, "time": 23.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 23.25, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 0, "time": 23.5, "duration": 0.236458333333335},
- {"note": "D3", "instrument": 3, "time": 23.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 23.5, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 23.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 23.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 23.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 24.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 24.0, "duration": 0.24895833333333428},
- {"note": "B3", "instrument": 3, "time": 24.0, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 24.25, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 24.25, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 24.5, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 24.5, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 2, "time": 24.75, "duration": 0.236458333333335},
- {"note": "B4", "instrument": 0, "time": 24.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 24.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 24.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 24.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 24.75, "duration": 0.4989583333333343},
- {"note": "A4", "instrument": 2, "time": 25.0, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 25.0, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 25.25, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 25.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 25.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 2, "time": 25.5, "duration": 0.9489583333333336},
- {"note": "A4", "instrument": 0, "time": 25.5, "duration": 0.236458333333335},
- {"note": "D3", "instrument": 3, "time": 25.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 25.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 25.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 25.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 25.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 26.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 26.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 26.0, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 0, "time": 26.25, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 26.5, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 26.5, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 2, "time": 26.75, "duration": 0.4739583333333357},
- {"note": "D5", "instrument": 0, "time": 26.75, "duration": 0.24895833333333428},
- {"note": "C3", "instrument": 3, "time": 26.75, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 26.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 26.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 26.75, "duration": 0.4989583333333343},
- {"note": "E4", "instrument": 2, "time": 27.25, "duration": 0.9489583333333336},
- {"note": "E4", "instrument": 0, "time": 27.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 27.25, "duration": 0.24895833333333428},
- {"note": "E4", "instrument": 0, "time": 27.5, "duration": 0.236458333333335},
- {"note": "C3", "instrument": 3, "time": 27.5, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 27.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 27.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 27.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 27.75, "duration": 0.4989583333333343},
- {"note": "C3", "instrument": 3, "time": 28.0, "duration": 0.24895833333333428},
- {"note": "E3", "instrument": 3, "time": 28.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 28.0, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 28.25, "duration": 0.236458333333335},
- {"note": "G4", "instrument": 0, "time": 28.25, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 28.5, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 28.5, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 28.75, "duration": 0.236458333333335},
- {"note": "A4", "instrument": 0, "time": 28.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 28.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 28.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 28.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 28.75, "duration": 0.4989583333333343},
- {"note": "B4", "instrument": 2, "time": 29.0, "duration": 0.236458333333335},
- {"note": "B4", "instrument": 0, "time": 29.0, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 29.25, "duration": 0.9489583333333336},
- {"note": "A4", "instrument": 0, "time": 29.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 29.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 0, "time": 29.5, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 29.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 29.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 29.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 29.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 29.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 30.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 30.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 30.0, "duration": 0.24895833333333428},
- {"note": "F#4", "instrument": 2, "time": 30.25, "duration": 0.12395833333333428},
- {"note": "F#4", "instrument": 0, "time": 30.25, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 30.5, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 30.5, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 2, "time": 30.75, "duration": 0.4739583333333357},
- {"note": "D5", "instrument": 0, "time": 30.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 30.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 30.75, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 30.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 30.75, "duration": 0.4989583333333343},
- {"note": "D5", "instrument": 0, "time": 31.0, "duration": 0.12395833333333428},
- {"note": "C5", "instrument": 2, "time": 31.25, "duration": 0.236458333333335},
- {"note": "C5", "instrument": 0, "time": 31.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 31.25, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 2, "time": 31.5, "duration": 0.7114583333333329},
- {"note": "B4", "instrument": 0, "time": 31.5, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 31.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 31.5, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 31.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 31.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 31.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 32.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 32.0, "duration": 0.24895833333333428},
- {"note": "B3", "instrument": 3, "time": 32.0, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 2, "time": 32.25, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 0, "time": 32.25, "duration": 0.12395833333333428},
- {"note": "C5", "instrument": 2, "time": 32.5, "duration": 0.12395833333333428},
- {"note": "C5", "instrument": 0, "time": 32.5, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 32.75, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 0, "time": 32.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 32.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 32.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 32.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 32.75, "duration": 0.4989583333333343},
- {"note": "B4", "instrument": 2, "time": 33.0, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 33.0, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 33.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 0, "time": 33.25, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 33.25, "duration": 0.24895833333333428},
- {"note": "D3", "instrument": 3, "time": 33.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 33.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 33.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 33.5, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 2, "time": 33.75, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 0, "time": 33.75, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 33.75, "duration": 0.4989583333333343},
- {"note": "C5", "instrument": 2, "time": 34.0, "duration": 0.12395833333333428},
- {"note": "C5", "instrument": 0, "time": 34.0, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 34.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 34.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 34.0, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 2, "time": 34.25, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 0, "time": 34.25, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 34.5, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 0, "time": 34.5, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 2, "time": 34.75, "duration": 1.8989583333333329},
- {"note": "B4", "instrument": 1, "time": 34.75, "duration": 0.94895833333333},
- {"note": "C3", "instrument": 4, "time": 34.75, "duration": 1.9989583333333343},
- {"note": "E3", "instrument": 4, "time": 34.75, "duration": 1.9989583333333343},
- {"note": "G3", "instrument": 4, "time": 34.75, "duration": 1.9989583333333343},
- {"note": "C5", "instrument": 0, "time": 35.75, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 0, "time": 36.0, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 1, "time": 36.0, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 0, "time": 36.25, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 1, "time": 36.25, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 36.5, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 1, "time": 36.5, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 2, "time": 36.75, "duration": 0.94895833333333},
- {"note": "C5", "instrument": 0, "time": 36.75, "duration": 0.94895833333333},
- {"note": "A4", "instrument": 1, "time": 36.75, "duration": 1.8989583333333329},
- {"note": "D3", "instrument": 4, "time": 36.75, "duration": 1.9989583333333343},
- {"note": "F#3", "instrument": 4, "time": 36.75, "duration": 1.9989583333333343},
- {"note": "A3", "instrument": 4, "time": 36.75, "duration": 1.9989583333333343},
- {"note": "A4", "instrument": 2, "time": 37.75, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 37.75, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 2, "time": 38.0, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 38.0, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 2, "time": 38.25, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 0, "time": 38.25, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 2, "time": 38.5, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 0, "time": 38.5, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 2, "time": 38.75, "duration": 1.8989583333333329},
- {"note": "G4", "instrument": 0, "time": 38.75, "duration": 0.94895833333333},
- {"note": "D5", "instrument": 1, "time": 38.75, "duration": 0.94895833333333},
- {"note": "D3", "instrument": 4, "time": 38.75, "duration": 1.9989583333333343},
- {"note": "G3", "instrument": 4, "time": 38.75, "duration": 1.9989583333333343},
- {"note": "B3", "instrument": 4, "time": 38.75, "duration": 1.9989583333333343},
- {"note": "A4", "instrument": 0, "time": 39.75, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 40.0, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 1, "time": 40.0, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 0, "time": 40.25, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 1, "time": 40.25, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 0, "time": 40.5, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 1, "time": 40.5, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 2, "time": 40.75, "duration": 0.94895833333333},
- {"note": "D5", "instrument": 0, "time": 40.75, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 1, "time": 40.75, "duration": 1.8989583333333329},
- {"note": "D3", "instrument": 4, "time": 40.75, "duration": 1.9989583333333343},
- {"note": "F#3", "instrument": 4, "time": 40.75, "duration": 1.9989583333333343},
- {"note": "A3", "instrument": 4, "time": 40.75, "duration": 1.9989583333333343},
- {"note": "F#3", "instrument": 5, "time": 40.75, "duration": 0.4989583333333343},
- {"note": "B4", "instrument": 0, "time": 41.0, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 41.25, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 0, "time": 41.5, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 41.5, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 41.75, "duration": 0.23645833333333144},
- {"note": "E5", "instrument": 0, "time": 41.75, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 41.75, "duration": 0.4989583333333343},
- {"note": "F#4", "instrument": 2, "time": 42.0, "duration": 0.23645833333333144},
- {"note": "F#5", "instrument": 0, "time": 42.0, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 2, "time": 42.25, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 42.25, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 42.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 42.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 2, "time": 42.5, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 42.5, "duration": 0.12395833333333428},
- {"note": "A5", "instrument": 0, "time": 42.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 42.5, "duration": 0.24895833333333428},
- {"note": "E5", "instrument": 2, "time": 42.75, "duration": 0.94895833333333},
- {"note": "E4", "instrument": 0, "time": 42.75, "duration": 0.12395833333333428},
- {"note": "E5", "instrument": 0, "time": 42.75, "duration": 0.12395833333333428},
- {"note": "C3", "instrument": 3, "time": 42.75, "duration": 1.9989583333333272},
- {"note": "F#3", "instrument": 5, "time": 42.75, "duration": 0.4989583333333343},
- {"note": "E4", "instrument": 0, "time": 43.0, "duration": 0.23645833333333144},
- {"note": "E5", "instrument": 0, "time": 43.0, "duration": 0.23645833333333144},
- {"note": "G3", "instrument": 3, "time": 43.0, "duration": 1.6239583333333272},
- {"note": "C4", "instrument": 3, "time": 43.25, "duration": 1.4989583333333272},
- {"note": "F#3", "instrument": 5, "time": 43.25, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 43.5, "duration": 0.24895833333332718},
- {"note": "G4", "instrument": 2, "time": 43.74999999999999, "duration": 0.4739583333333357},
- {"note": "G4", "instrument": 0, "time": 43.74999999999999, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 43.74999999999999, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 43.74999999999999, "duration": 0.4989583333333343},
- {"note": "G4", "instrument": 0, "time": 43.99999999999999, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 43.99999999999999, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 44.24999999999999, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 44.24999999999999, "duration": 0.12395833333333428},
- {"note": "A5", "instrument": 0, "time": 44.24999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 44.49999999999999, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 44.49999999999999, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 44.49999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 44.74999999999999, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 44.74999999999999, "duration": 0.11770833333333286},
- {"note": "G5", "instrument": 0, "time": 44.74999999999999, "duration": 0.11770833333333286},
- {"note": "D3", "instrument": 3, "time": 44.74999999999999, "duration": 1.9989583333333343},
- {"note": "F#3", "instrument": 5, "time": 44.74999999999999, "duration": 0.4989583333333343},
- {"note": "G4", "instrument": 0, "time": 44.87499999999999, "duration": 0.11770833333333286},
- {"note": "G5", "instrument": 0, "time": 44.87499999999999, "duration": 0.11770833333333286},
- {"note": "F#4", "instrument": 2, "time": 44.99999999999999, "duration": 0.94895833333333},
- {"note": "F#4", "instrument": 0, "time": 44.99999999999999, "duration": 0.23645833333333144},
- {"note": "F#5", "instrument": 0, "time": 44.99999999999999, "duration": 0.23645833333333144},
- {"note": "A3", "instrument": 3, "time": 44.99999999999999, "duration": 1.6239583333333343},
- {"note": "D4", "instrument": 3, "time": 45.24999999999999, "duration": 1.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 45.24999999999999, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 45.49999999999999, "duration": 0.24895833333333428},
- {"note": "F#4", "instrument": 0, "time": 45.74999999999999, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 45.74999999999999, "duration": 0.4989583333333343},
- {"note": "A4", "instrument": 0, "time": 45.99999999999999, "duration": 0.11770833333333286},
- {"note": "D5", "instrument": 0, "time": 46.12499999999999, "duration": 0.11770833333333286},
- {"note": "G4", "instrument": 2, "time": 46.24999999999999, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 46.24999999999999, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 46.24999999999999, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 2, "time": 46.49999999999999, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 46.49999999999999, "duration": 0.12395833333333428},
- {"note": "A5", "instrument": 0, "time": 46.49999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 46.74999999999999, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 46.74999999999999, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 46.74999999999999, "duration": 0.12395833333333428},
- {"note": "G3", "instrument": 3, "time": 46.74999999999999, "duration": 1.9989583333333414},
- {"note": "F#3", "instrument": 5, "time": 46.74999999999999, "duration": 0.4989583333333343},
- {"note": "D5", "instrument": 2, "time": 46.99999999999999, "duration": 0.7114583333333329},
- {"note": "D5", "instrument": 0, "time": 46.99999999999999, "duration": 0.23645833333333144},
- {"note": "D6", "instrument": 0, "time": 46.99999999999999, "duration": 0.23645833333333144},
- {"note": "D4", "instrument": 3, "time": 46.99999999999999, "duration": 1.6239583333333343},
- {"note": "G4", "instrument": 3, "time": 47.24999999999999, "duration": 0.9989583333333343},
- {"note": "F#3", "instrument": 5, "time": 47.24999999999999, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 47.49999999999999, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 2, "time": 47.74999999999999, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 47.74999999999999, "duration": 0.12395833333333428},
- {"note": "B5", "instrument": 0, "time": 47.74999999999999, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 47.74999999999999, "duration": 0.4989583333333343},
- {"note": "A4", "instrument": 2, "time": 47.99999999999999, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 47.99999999999999, "duration": 0.12395833333333428},
- {"note": "A5", "instrument": 0, "time": 47.99999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 2, "time": 48.24999999999999, "duration": 0.23645833333333144},
- {"note": "G5", "instrument": 0, "time": 48.24999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 48.24999999999999, "duration": 0.4739583333333357},
- {"note": "A4", "instrument": 2, "time": 48.49999999999999, "duration": 0.23645833333333854},
- {"note": "A4", "instrument": 0, "time": 48.49999999999999, "duration": 0.12395833333333428},
- {"note": "A5", "instrument": 0, "time": 48.49999999999999, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 48.75, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 0, "time": 48.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 48.75, "duration": 1.9989583333333343},
- {"note": "F#3", "instrument": 5, "time": 48.75, "duration": 0.4989583333333343},
- {"note": "D5", "instrument": 0, "time": 49.0, "duration": 0.23645833333333144},
- {"note": "D6", "instrument": 0, "time": 49.0, "duration": 0.23645833333333144},
- {"note": "A3", "instrument": 3, "time": 49.0, "duration": 1.6239583333333343},
- {"note": "D4", "instrument": 3, "time": 49.25, "duration": 1.4989583333333343},
- {"note": "G4", "instrument": 1, "time": 49.25, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 1, "time": 49.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 49.25, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 1, "time": 49.5, "duration": 0.23645833333333144},
- {"note": "D6", "instrument": 1, "time": 49.5, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 49.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 49.75, "duration": 0.4989583333333343},
- {"note": "G4", "instrument": 2, "time": 50.0, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 50.0, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 1, "time": 50.0, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 2, "time": 50.25, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 50.25, "duration": 0.12395833333333428},
- {"note": "F#5", "instrument": 1, "time": 50.25, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 2, "time": 50.5, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 50.5, "duration": 0.12395833333333428},
- {"note": "E5", "instrument": 1, "time": 50.5, "duration": 0.23645833333333144},
- {"note": "E4", "instrument": 2, "time": 50.75, "duration": 1.4239583333333314},
- {"note": "E4", "instrument": 0, "time": 50.75, "duration": 0.24895833333333428},
- {"note": "C3", "instrument": 3, "time": 50.75, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 50.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 50.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 50.75, "duration": 0.4989583333333343},
- {"note": "E4", "instrument": 0, "time": 51.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 51.25, "duration": 0.24895833333333428},
- {"note": "E4", "instrument": 0, "time": 51.5, "duration": 0.23645833333333144},
- {"note": "C3", "instrument": 3, "time": 51.5, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 51.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 51.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 51.5, "duration": 0.24895833333333428},
- {"note": "C5", "instrument": 1, "time": 51.75, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 51.75, "duration": 0.4989583333333343},
- {"note": "C3", "instrument": 3, "time": 52.0, "duration": 0.24895833333333428},
- {"note": "E3", "instrument": 3, "time": 52.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 52.0, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 1, "time": 52.0, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 2, "time": 52.25, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 52.25, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 1, "time": 52.25, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 52.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 2, "time": 52.5, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 0, "time": 52.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 52.5, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 2, "time": 52.75, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 0, "time": 52.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 52.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 52.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 52.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 52.75, "duration": 0.4989583333333343},
- {"note": "C5", "instrument": 2, "time": 53.0, "duration": 0.4739583333333357},
- {"note": "A4", "instrument": 0, "time": 53.0, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 53.25, "duration": 0.24895833333333428},
- {"note": "F#5", "instrument": 2, "time": 53.5, "duration": 0.7114583333333329},
- {"note": "F#4", "instrument": 0, "time": 53.5, "duration": 0.23645833333333144},
- {"note": "D3", "instrument": 3, "time": 53.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 53.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 53.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 53.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 53.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 54.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 54.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 54.0, "duration": 0.24895833333333428},
- {"note": "G5", "instrument": 2, "time": 54.25, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 54.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 54.25, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 2, "time": 54.5, "duration": 0.7114583333333329},
- {"note": "G4", "instrument": 0, "time": 54.5, "duration": 0.12395833333333428},
- {"note": "D5", "instrument": 0, "time": 54.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 54.5, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 0, "time": 54.75, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 0, "time": 54.75, "duration": 0.24895833333333428},
- {"note": "D3", "instrument": 3, "time": 54.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 54.75, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 54.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 54.75, "duration": 0.4989583333333343},
- {"note": "B4", "instrument": 2, "time": 55.25, "duration": 0.94895833333333},
- {"note": "B4", "instrument": 0, "time": 55.25, "duration": 0.12395833333333428},
- {"note": "G5", "instrument": 1, "time": 55.25, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 55.25, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 0, "time": 55.5, "duration": 0.23645833333333144},
- {"note": "D3", "instrument": 3, "time": 55.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 55.5, "duration": 0.4989583333333343},
- {"note": "B3", "instrument": 3, "time": 55.5, "duration": 0.4989583333333343},
- {"note": "D5", "instrument": 1, "time": 55.5, "duration": 0.7114583333333329},
- {"note": "F#3", "instrument": 5, "time": 55.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 55.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 56.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 56.0, "duration": 0.24895833333333428},
- {"note": "B3", "instrument": 3, "time": 56.0, "duration": 0.24895833333333428},
- {"note": "G4", "instrument": 2, "time": 56.25, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 56.25, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 1, "time": 56.25, "duration": 0.9489583333333371},
- {"note": "F#3", "instrument": 5, "time": 56.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 2, "time": 56.5, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 0, "time": 56.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 56.5, "duration": 0.24895833333333428},
- {"note": "D5", "instrument": 2, "time": 56.75, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 0, "time": 56.75, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 56.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 56.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 56.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 56.75, "duration": 0.4989583333333343},
- {"note": "C5", "instrument": 2, "time": 57.0, "duration": 0.12395833333333428},
- {"note": "A4", "instrument": 0, "time": 57.0, "duration": 0.12395833333333428},
- {"note": "B4", "instrument": 2, "time": 57.25, "duration": 0.12395833333333428},
- {"note": "G4", "instrument": 0, "time": 57.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 57.25, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 2, "time": 57.5, "duration": 0.7114583333333329},
- {"note": "A4", "instrument": 0, "time": 57.5, "duration": 0.23645833333333144},
- {"note": "D3", "instrument": 3, "time": 57.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 57.5, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 57.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 57.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 57.75, "duration": 0.4989583333333343},
- {"note": "D3", "instrument": 3, "time": 58.0, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 58.0, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 58.0, "duration": 0.24895833333333428},
- {"note": "F#5", "instrument": 2, "time": 58.25, "duration": 0.23645833333333144},
- {"note": "F#4", "instrument": 0, "time": 58.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 58.25, "duration": 0.24895833333333428},
- {"note": "D6", "instrument": 2, "time": 58.5, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 0, "time": 58.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 58.5, "duration": 0.24895833333333428},
- {"note": "D6", "instrument": 2, "time": 58.75, "duration": 0.23645833333333144},
- {"note": "D5", "instrument": 0, "time": 58.75, "duration": 0.12395833333333428},
- {"note": "C3", "instrument": 3, "time": 58.75, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 58.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 58.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 58.75, "duration": 0.4989583333333343},
- {"note": "C6", "instrument": 2, "time": 59.0, "duration": 0.23645833333333144},
- {"note": "C5", "instrument": 0, "time": 59.0, "duration": 0.12395833333333428},
- {"note": "E6", "instrument": 2, "time": 59.25, "duration": 0.23645833333333144},
- {"note": "E5", "instrument": 0, "time": 59.25, "duration": 0.23645833333333144},
- {"note": "F#3", "instrument": 5, "time": 59.25, "duration": 0.24895833333333428},
- {"note": "G5", "instrument": 2, "time": 59.5, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 59.5, "duration": 0.12395833333333428},
- {"note": "C3", "instrument": 3, "time": 59.5, "duration": 0.4989583333333343},
- {"note": "E3", "instrument": 3, "time": 59.5, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 3, "time": 59.5, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 5, "time": 59.5, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 59.75, "duration": 0.4989583333333343},
- {"note": "B5", "instrument": 2, "time": 60.0, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 60.0, "duration": 0.12395833333333428},
- {"note": "C3", "instrument": 3, "time": 60.0, "duration": 0.24895833333333428},
- {"note": "E3", "instrument": 3, "time": 60.0, "duration": 0.24895833333333428},
- {"note": "G3", "instrument": 3, "time": 60.0, "duration": 0.24895833333333428},
- {"note": "A5", "instrument": 2, "time": 60.25, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 60.25, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 60.25, "duration": 0.24895833333333428},
- {"note": "G5", "instrument": 2, "time": 60.5, "duration": 0.23645833333333144},
- {"note": "G4", "instrument": 0, "time": 60.5, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 60.5, "duration": 0.24895833333333428},
- {"note": "A5", "instrument": 2, "time": 60.75, "duration": 0.94895833333333},
- {"note": "A4", "instrument": 0, "time": 60.75, "duration": 0.4739583333333357},
- {"note": "D3", "instrument": 3, "time": 60.75, "duration": 0.4989583333333343},
- {"note": "F#3", "instrument": 3, "time": 60.75, "duration": 0.4989583333333343},
- {"note": "A3", "instrument": 3, "time": 60.75, "duration": 0.4989583333333343},
- {"note": "A4", "instrument": 1, "time": 60.75, "duration": 0.4739583333333357},
- {"note": "F#3", "instrument": 5, "time": 60.75, "duration": 0.4989583333333343},
- {"note": "G3", "instrument": 4, "time": 61.5, "duration": 0.24895833333332718},
- {"note": "B5", "instrument": 2, "time": 61.99999999999999, "duration": 0.23645833333333144},
- {"note": "B4", "instrument": 0, "time": 61.99999999999999, "duration": 0.12395833333333428},
- {"note": "D3", "instrument": 3, "time": 61.99999999999999, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 3, "time": 61.99999999999999, "duration": 0.24895833333333428},
- {"note": "B4", "instrument": 1, "time": 61.99999999999999, "duration": 0.12395833333333428},
- {"note": "G3", "instrument": 4, "time": 61.99999999999999, "duration": 0.24895833333333428},
- {"note": "F#3", "instrument": 5, "time": 61.99999999999999, "duration": 0.24895833333333428},
- {"note": "A5", "instrument": 2, "time": 62.24999999999999, "duration": 0.23645833333333144},
- {"note": "A4", "instrument": 0, "time": 62.24999999999999, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 3, "time": 62.24999999999999, "duration": 0.24895833333333428},
- {"note": "A3", "instrument": 3, "time": 62.24999999999999, "duration": 0.24895833333333428},
- {"note": "A4", "instrument": 1, "time": 62.24999999999999, "duration": 0.12395833333333428},
- {"note": "F#3", "instrument": 5, "time": 62.24999999999999, "duration": 0.24895833333333428},
- {"note": "G5", "instrument": 2, "time": 62.49999999999999, "duration": 1.1864583333333343},
- {"note": "G4", "instrument": 0, "time": 62.49999999999999, "duration": 1.0739583333333371},
- {"note": "G3", "instrument": 3, "time": 62.49999999999999, "duration": 1.2489583333333343},
- {"note": "G4", "instrument": 1, "time": 62.49999999999999, "duration": 1.0739583333333371},
- {"note": "G3", "instrument": 4, "time": 62.49999999999999, "duration": 1.2489583333333343},
- {"note": "F#3", "instrument": 5, "time": 62.49999999999999, "duration": 0.24895833333333428}]
+[
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 17.25,
+    "duration": -17.013541666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 1.4104166666666669,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.07604166666666666,
+    "duration": 0.16041666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.46041666666666664,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 2,
+    "time": 0.026041666666666668,
+    "duration": 0.6854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.19791666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.6979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.9104166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.46041666666666664,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 2,
+    "time": 0.026041666666666668,
+    "duration": 0.9229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.07291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": 0.34791666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 2,
+    "time": 0.026041666666666668,
+    "duration": 0.21041666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.6979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.08541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": 1.7729166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.10104166666666667,
+    "duration": 0.8479166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 1.8854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.10104166666666667,
+    "duration": 0.8479166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.42291666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.026041666666666668,
+    "duration": 0.21041666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.6979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.19791666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 1.2635416666666666,
+    "duration": -1.0270833333333331,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 1.4104166666666669,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.07604166666666666,
+    "duration": 0.16041666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": 0.34791666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 2,
+    "time": 0.026041666666666668,
+    "duration": 0.6854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.19791666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.6979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.9104166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 2,
+    "time": 0.051041666666666666,
+    "duration": 0.07291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 2,
+    "time": 0.12604166666666666,
+    "duration": 0.5854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 2,
+    "time": 0.03854166666666667,
+    "duration": 0.19791666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B6",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "B6",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A6",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "C#6",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#5",
+    "instrument": 2,
+    "time": 0.2635416666666667,
+    "duration": -0.027083333333333348,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "G#5",
+    "instrument": 2,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 2,
+    "time": 0.013541666666666667,
+    "duration": 1.1729166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 11.25,
+    "duration": -11.126041666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 0,
+    "time": 0.30104166666666665,
+    "duration": -0.17708333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "G#5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.46041666666666664,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 1.2760416666666667,
+    "duration": -1.1520833333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.27708333333333335,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.2635416666666667,
+    "duration": -0.027083333333333348,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.6260416666666667,
+    "duration": -0.5020833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.6260416666666667,
+    "duration": -0.5020833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 1.1260416666666666,
+    "duration": -0.8895833333333333,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 49
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 49
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 49
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.051041666666666666,
+    "duration": 0.18541666666666667,
+    "velocity": 49
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 49
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 66
+  },
+  {
+    "note": "C#5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 72
+  },
+  {
+    "note": "D#5",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 78
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.008333333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.007291666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 96
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 96
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.007291666666666667,
+    "duration": 0.22916666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.27708333333333335,
+    "velocity": 96
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.10416666666666666,
+    "velocity": 96
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.007291666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 96
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.007291666666666667,
+    "duration": 0.11666666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B6",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "G#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.1,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.026041666666666668,
+    "duration": 0.09791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B6",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.7635416666666667,
+    "duration": -0.6395833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "C#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.27708333333333335,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.2635416666666667,
+    "duration": -0.027083333333333348,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.12291666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.25104166666666666,
+    "duration": -0.12708333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 0,
+    "time": 0.5135416666666667,
+    "duration": -0.38958333333333334,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.013541666666666667,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.37604166666666666,
+    "duration": -0.2520833333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.34791666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 0,
+    "time": 0.7760416666666666,
+    "duration": -0.6520833333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 0,
+    "time": 0.12604166666666666,
+    "duration": 0.9479166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#2",
+    "instrument": 3,
+    "time": 13.25,
+    "duration": -13.001041666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E2",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#2",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#2",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.9979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "C#2",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.9979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B2",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.9979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 1.0010416666666666,
+    "duration": -0.5020833333333332,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": 1.1239583333333334,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 8.501041666666667,
+    "duration": -8.376041666666667,
+    "velocity": 80
+  },
+  {
+    "note": "A4",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": -0.25,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": 1.1239583333333334,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.12395833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "B4",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": -0.25,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": 0.7489583333333333,
+    "velocity": 80
+  },
+  {
+    "note": "B4",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": 0.125,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.12395833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": 1.1239583333333334,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.12395833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "B4",
+    "instrument": 3,
+    "time": 0.25,
+    "duration": -0.25,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 3,
+    "time": 0.7510416666666667,
+    "duration": -0.5020833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 3,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 3,
+    "time": 0.0010416666666666667,
+    "duration": 1.2479166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 1.25,
+    "duration": -1.0135416666666668,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "D#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 64
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 64
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 64
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.9354166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.17708333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.17708333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.17708333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.17708333333333331,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.8229166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 17.051041666666666,
+    "duration": -16.102083333333333,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 1.8854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.10104166666666667,
+    "duration": 0.8479166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.30104166666666665,
+    "duration": -0.06458333333333333,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 1.8854166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 6.601041666666666,
+    "duration": -6.477083333333333,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 1,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.11041666666666666,
+    "velocity": 80
+  },
+  {
+    "note": "B6",
+    "instrument": 1,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 1,
+    "time": 0.2635416666666667,
+    "duration": -0.027083333333333348,
+    "velocity": 80
+  },
+  {
+    "note": "D#5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "C#5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 1.0135416666666666,
+    "duration": -0.7770833333333332,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "A5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.22291666666666665,
+    "velocity": 80
+  },
+  {
+    "note": "E5",
+    "instrument": 1,
+    "time": 2.763541666666667,
+    "duration": -2.5270833333333336,
+    "velocity": 80
+  },
+  {
+    "note": "B5",
+    "instrument": 1,
+    "time": 0.013541666666666667,
+    "duration": 0.6979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.03854166666666667,
+    "duration": 0.9104166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 3.551041666666667,
+    "duration": -3.0770833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "G#4",
+    "instrument": 1,
+    "time": 0.7760416666666666,
+    "duration": -0.6520833333333333,
+    "velocity": 80
+  },
+  {
+    "note": "F#4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E4",
+    "instrument": 1,
+    "time": 0.12604166666666666,
+    "duration": 0.9479166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 4,
+    "time": 2.0,
+    "duration": -0.0010416666666666075,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#2",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.7510416666666667,
+    "duration": -0.2520833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.7510416666666667,
+    "duration": -0.2520833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.7510416666666667,
+    "duration": -0.2520833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "A3",
+    "instrument": 4,
+    "time": 16.751041666666666,
+    "duration": -14.752083333333331,
+    "velocity": 80
+  },
+  {
+    "note": "C#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "G#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "B3",
+    "instrument": 4,
+    "time": 0.0010416666666666667,
+    "duration": 1.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "F#3",
+    "instrument": 4,
+    "time": 0.0,
+    "duration": 0.0,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 18.751041666666666,
+    "duration": -18.50208333333333,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "E3",
+    "instrument": 4,
+    "time": 0.25104166666666666,
+    "duration": 0.9979166666666668,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 10.0,
+    "duration": -9.501041666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 1.0010416666666666,
+    "duration": -0.5020833333333332,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 1.0010416666666666,
+    "duration": -0.5020833333333332,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.9979166666666666,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 1.0010416666666666,
+    "duration": -0.5020833333333332,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 6.501041666666667,
+    "duration": -6.002083333333333,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.25104166666666666,
+    "duration": -0.002083333333333326,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.5010416666666667,
+    "duration": -0.0020833333333333814,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.4979166666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.7510416666666667,
+    "duration": -0.5020833333333334,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  },
+  {
+    "note": "D#3",
+    "instrument": 5,
+    "time": 0.0010416666666666667,
+    "duration": 0.24791666666666667,
+    "velocity": 80
+  }
+]
